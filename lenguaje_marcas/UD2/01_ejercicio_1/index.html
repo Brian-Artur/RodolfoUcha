@@ -1,0 +1,118 @@
+<!-- 1. Estructura de la página -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Tu Nombre">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda de Barbacoas</title>
+</head>
+<body id="inicio">
+
+  <!-- 9. Navegación -->
+  <nav>
+    <a href="#productos">Barbacoas</a> |
+    <a href="#listas">Características y Asado</a> |
+    <a href="#formulario">Contacto</a> |
+    <a href="#multimedia">Multimedia</a>
+  </nav>
+
+  <!-- 2. Título y párrafo -->
+  <h1>🔥 Bienvenido/a a KeChille 🔥</h1>
+  <p>Aquí encontrarás barbacoas de calidad para tus reuniones familiares o con amigos. Descubre nuestros modelos, aprende a usarlos y disfruta del sabor del buen asado.</p>
+
+  <!-- 3. Tabla de productos -->
+  <h2 id="productos">Nuestras Barbacoas</h2>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Producto</th>
+        <th>Descripción</th>
+        <th>Precio</th>
+        <th>Valoración</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Barbacoa Clásica</td>
+        <td>Ideal para reuniones pequeñas. Fácil de transportar.</td>
+        <td>119'95 €</td>
+        <td>⭐⭐⭐</td>       <!-- 6. Valoración-->
+      </tr>
+      <tr>
+        <td>Barbacoa Premium</td>
+        <td>Gran capacidad, materiales resistentes, perfecta para fiestas.</td>
+        <td>299'95 €</td>
+        <td>⭐⭐⭐⭐⭐</td>   <!-- 6. Valoración-->
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- 4. Listas -->
+  <h2 id="listas">Un Buen Asado</h2>
+  <h3>Características de nuestras barbacoas</h3>
+  <ul>
+    <li>Acero inoxidable de alta resistencia</li>
+    <li>Diseño portátil y moderno</li>
+    <li>Incluye parrilla ajustable</li>
+    <li>Garantía de 2 años</li>
+  </ul>
+
+  <h3>Pasos para hacer un buen asado</h3>
+  <ol>
+    <li>Prepara la barbacoa y enciende el carbón hasta que las brasas estén blancas.</li>
+    <li>Limpia y engrasa la parrilla para evitar que la carne se pegue.</li>
+    <li>Coloca la carne y verduras a fuego medio, sin apurar la cocción.</li>
+    <li>Voltea los alimentos una sola vez para conservar los jugos.</li>
+    <li>Sirve caliente y acompaña con tu guarnición favorita.</li>
+  </ol>
+
+  <!-- 5. Formulario -->
+  <h2 id="formulario">Formulario de Contacto</h2>
+  <form>
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" id="nombre" name="nombre"><br><br>
+
+    <label for="correo">Correo electrónico:</label><br>
+    <input type="email" id="correo" name="correo"><br><br>
+
+    <label for="mensaje">Mensaje:</label><br>
+    <textarea id="mensaje" name="mensaje"></textarea><br><br>
+
+    <label for="valoracion">Valoración de la barbacoa (1 a 5 estrellas):</label><br>
+    <!-- Select + 1 Option por estrella -->
+    <select id="valoracion" name="valoracion">
+      <option>⭐⭐⭐⭐⭐</option>
+      <option>⭐⭐⭐⭐</option>
+      <option>⭐⭐⭐</option>
+      <option>⭐⭐</option>
+      <option>⭐</option>
+    </select><br><br>
+
+    <button type="submit">Enviar</button>
+  </form>
+
+  <!-- 7. Contenido multimedia -->
+  <h2 id="multimedia">Contenido Multimedia</h2>
+  <img src="./assets/barbacoa.jpg" alt="Barbacoa en acción"><br><br>
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/xAgXLTw5Y2c?si=R8bMX0NR6WQ3RTvR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br><br>
+
+  <audio controls>
+    <source src="./assets/Georgie Dann - La Barbacoa.mp3" type="audio/mpeg">
+    Tu navegador no soporta la reproducción de audio.
+  </audio><br><br>
+
+  <!-- 8. Enlace externo -->
+  <p>Descubre recetas para asados en <a href="https://www.google.com" target="_blank">Google</a>.</p>
+
+  <!-- Botón volver arriba -->
+  <p><a href="#inicio">Volver arriba</a></p>
+
+  <!-- 10. Pie de página -->
+  <footer>
+    <p>Autor: Brian-Artur <a href="brianarturfaro@gmail.com">Contacto</a></p>
+  </footer>
+
+</body>
+</html>

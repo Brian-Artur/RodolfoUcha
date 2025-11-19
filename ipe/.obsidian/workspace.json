@@ -1,0 +1,183 @@
+{
+  "main": {
+    "id": "4da8b5b83d0151f1",
+    "type": "split",
+    "children": [
+      {
+        "id": "acfa312787528e16",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d6b60e085992abb8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UD1/03_factores_riesgo_prevencion.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "03_factores_riesgo_prevencion"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fb4bee7e74792a2a",
+    "type": "split",
+    "children": [
+      {
+        "id": "60abf69c5cbaae80",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9b7f378fda18ad9f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "72942028efc905f4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "7fba962e306c1454",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 242.5
+  },
+  "right": {
+    "id": "8ea6afd8fbfe8ef3",
+    "type": "split",
+    "children": [
+      {
+        "id": "466fae46fc712bd4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4c8069eda88d403f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "UD1/03_factores_riesgo_prevencion.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de 03_factores_riesgo_prevencion"
+            }
+          },
+          {
+            "id": "2fe02c38080e261c",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 283.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false,
+      "obsidian-excalidraw-plugin:Nuevo Bosquejo": false
+    }
+  },
+  "active": "d6b60e085992abb8",
+  "lastOpenFiles": [
+    "UD1/assets/2025-10-14_16-43-37.png",
+    "UD1/Drawing 2025-10-08 18.22.07.excalidraw.md",
+    "UD1/03_factores_riesgo_prevencion.md",
+    "UD1/assets/2025-10-14_16-43-00.png",
+    "UD1/04_factores_riesgo_prevencion.md",
+    "UD1/02_medidasprevencio_proteccion.md",
+    "programacion/UD1/Boletin Strings 2.pdf",
+    "sistemas_iformaticos/UD1/02_virtualizición.md",
+    "sistemas_iformaticos/UD1/03_redes.md",
+    "sistemas_iformaticos/UD1/Drawing 2025-10-07 21.12.20.excalidraw.md",
+    "Pasted Image 20251010191447_886.png",
+    "sistemas_iformaticos/UD1/01_introduccion.md",
+    "sistemas_iformaticos/UD1/cd_daw1_ssii_temario_UD1_1_introduccion.pdf",
+    "sistemas_iformaticos/Examen tipo2.md",
+    "sistemas_iformaticos/Examen tipo.md",
+    "programacion/UD1/Boletin Strings 1.pdf",
+    "sistemas_iformaticos/UD1/Examen Tipo Test Sistemas Informáticos.markdown",
+    "sistemas_iformaticos/Examen Tipo Test Sistemas Informáticos 1.markdown",
+    "sistemas_iformaticos/Examen Tipo Test Sistemas Informáticos.markdown",
+    "programacion/UD1/Boletin Strings 2.pdf.crdownload",
+    "ipe/UD1/Drawing 2025-10-08 18.22.07.excalidraw.md",
+    "programacion/EjerciciosJava/target/classes/strings1/Ejer15.class",
+    "programacion/EjerciciosJava/target/classes/strings1/Ejer13.class",
+    "programacion/EjerciciosJava/src/main/java/strings1/Ejer13.java",
+    "ipe/UD1/03_factores_riesgo_prevencion.md",
+    "ipe/UD1/assets/2025-10-08_18-26-32.png",
+    "ipe/UD1/04_factores_riesgo_prevencion.md",
+    "lenguaje_marcas/UD2/04_boletin_multimedia_3/img/poster.png",
+    "lenguaje_marcas/UD2/04_boletin_multimedia_3/img/s25.webp",
+    "lenguaje_marcas/25-09-15.md",
+    "sistemas_iformaticos/UD1/assets/2025-10-07_22-27-02.png",
+    "sistemas_iformaticos/UD1/assets/2025-10-07_22-24-45.png",
+    "sistemas_iformaticos/UD1/assets/2025-10-07_22-06-53.png",
+    "sistemas_iformaticos/UD1/assets/2025-10-07_22-20-06.png",
+    "Pasted Image 20251007221933_751.png",
+    "ingles/UD1/ud2.md",
+    "ingles/UD1/01_vocabulary.md",
+    "ipe/UD1/02_medidasprevencio_proteccion.md",
+    "ipe/UD1/01_prevencion.md",
+    "entornos_desarrollo/UD1/01_instalación.md",
+    "base_datos/01_bbdd_sistemas_almacenamiento/02_bbdd.md",
+    "entornos_desarrollo/25-09-15.md",
+    "base_datos/01_bbdd_sistemas_almacenamiento/03_sxbd.md",
+    "base_datos/01_bbdd_sistemas_almacenamiento/01_sistemas_almacenamiento.md",
+    "lenguaje_marcas/01_intro_lenguaje_marcas.md",
+    "sistemas_iformaticos/Tareas.md"
+  ]
+}

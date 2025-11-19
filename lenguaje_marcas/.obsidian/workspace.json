@@ -1,0 +1,180 @@
+{
+  "main": {
+    "id": "4da8b5b83d0151f1",
+    "type": "split",
+    "children": [
+      {
+        "id": "acfa312787528e16",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d6b60e085992abb8",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "UD2/07_texto_preformateado.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "07_texto_preformateado"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fb4bee7e74792a2a",
+    "type": "split",
+    "children": [
+      {
+        "id": "60abf69c5cbaae80",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9b7f378fda18ad9f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "72942028efc905f4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "7fba962e306c1454",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 242.5
+  },
+  "right": {
+    "id": "8ea6afd8fbfe8ef3",
+    "type": "split",
+    "children": [
+      {
+        "id": "466fae46fc712bd4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4c8069eda88d403f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "programacion/UD1/Boletín 1 Diagramas de Flujo.pdf",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de Boletín 1 Diagramas de Flujo"
+            }
+          },
+          {
+            "id": "2fe02c38080e261c",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 201.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false,
+      "obsidian-excalidraw-plugin:Nuevo Bosquejo": false
+    }
+  },
+  "active": "d6b60e085992abb8",
+  "lastOpenFiles": [
+    "UD2/06_listas.pdf",
+    "UD2/06_boletin5/01_compra.html",
+    "UD2/06_boletin5",
+    "UD2/Nueva carpeta",
+    "UD2/05_tablas.pdf",
+    "UD2/07_texto_preformateado.pdf",
+    "UD2/08_maquetación_1.pdf",
+    "UD2/08_maquetación_1.pdf.crdownload",
+    "UD2/07_texto_preformateado.pdf.crdownload",
+    "UD2/06_listas.pdf.crdownload",
+    "programacion/UD1/Boletin Strings 2.pdf",
+    "sistemas_iformaticos/UD1/02_virtualizición.md",
+    "sistemas_iformaticos/UD1/03_redes.md",
+    "sistemas_iformaticos/UD1/Drawing 2025-10-07 21.12.20.excalidraw.md",
+    "Pasted Image 20251010191447_886.png",
+    "sistemas_iformaticos/UD1/01_introduccion.md",
+    "sistemas_iformaticos/Examen tipo2.md",
+    "sistemas_iformaticos/Examen tipo.md",
+    "ipe/UD1/Drawing 2025-10-08 18.22.07.excalidraw.md",
+    "ipe/UD1/03_factores_riesgo_prevencion.md",
+    "ipe/UD1/assets/2025-10-08_18-26-32.png",
+    "ipe/UD1/04_factores_riesgo_prevencion.md",
+    "lenguaje_marcas/UD2/04_boletin_multimedia_3/img/poster.png",
+    "lenguaje_marcas/UD2/04_boletin_multimedia_3/img/s25.webp",
+    "lenguaje_marcas/25-09-15.md",
+    "sistemas_iformaticos/UD1/assets/2025-10-07_22-27-02.png",
+    "sistemas_iformaticos/UD1/assets/2025-10-07_22-24-45.png",
+    "sistemas_iformaticos/UD1/assets/2025-10-07_22-06-53.png",
+    "sistemas_iformaticos/UD1/assets/2025-10-07_22-20-06.png",
+    "Pasted Image 20251007221933_751.png",
+    "sistemas_iformaticos/UD1/assets/2025-10-07_21-56-28.png",
+    "ingles/UD1/ud2.md",
+    "ingles/UD1/01_vocabulary.md",
+    "ipe/UD1/02_medidasprevencio_proteccion.md",
+    "ipe/UD1/01_prevencion.md",
+    "entornos_desarrollo/UD1/01_instalación.md",
+    "base_datos/01_bbdd_sistemas_almacenamiento/02_bbdd.md",
+    "entornos_desarrollo/25-09-15.md",
+    "base_datos/01_bbdd_sistemas_almacenamiento/03_sxbd.md",
+    "base_datos/01_bbdd_sistemas_almacenamiento/01_sistemas_almacenamiento.md",
+    "lenguaje_marcas/01_intro_lenguaje_marcas.md",
+    "sistemas_iformaticos/Tareas.md",
+    "sistemas_iformaticos/Drawing 2025-09-14 19.22.08.excalidraw.md",
+    "Bienvenido.md",
+    "03_node/05_intro_testing.md",
+    "03_node/04_node_ts.md"
+  ]
+}

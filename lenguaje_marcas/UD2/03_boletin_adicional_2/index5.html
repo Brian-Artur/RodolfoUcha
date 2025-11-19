@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio 1</title>
+</head>
+<body>
+  <form action="" id="formulario">
+    <label for="tamaño">Tamaño de la pizza</label>  
+    <select>
+      <option value="pequeña">Pequeña</option>
+      <option value="mediana">Mediana</option>
+      <option value="familiar">Familiar</option>
+    </select>    
+    <label for="masa">Masa:</label>
+    <select name="masa" id="masa">
+      <option value="fina">Fina</option>
+      <option value="normal">Normal</option>
+      <option value="queso">rellena de queso</option>
+    </select>
+    <label for="extras">Extras:</label><br>
+    <select id="extras" name="extras" multiple size="4">
+      <option value="aceitunas">Aceitunas</option>
+      <option value="peperoni">Peperoni</option>
+      <option value="cebolla">Cebolla</option>
+      <option value="bacon">Bacon</option>
+    </select>
+    <br><br>
+    <input type="submit" name="submit" id="submid" value="Enviar">
+  </form>
+  <script>
+    let contador = 0;
+  document.getElementById('formulario').addEventListener('submit', function(e) {
+    e.preventDefault(); // igual que si lo pusieras en JS directamente
+    contador++
+    alert(`Formulario interceptado sin recargar 🚀 - Contador: ${contador}`);
+  });
+</script>
+</body>
+</html>

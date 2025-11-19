@@ -1,0 +1,109 @@
+{
+  "styles": {
+    "02_typescript": {
+      "backgroundColor": "#e2e3f9",
+      "opacity": 1,
+      "applyToFiles": true
+    },
+    "06_bases_datos": {
+      "backgroundColor": "#b7e1d3"
+    },
+    "06_bases_datos/01_relacionales": {
+      "backgroundColor": "#e4f9e1",
+      "isBold": false,
+      "opacity": 1
+    },
+    "01_javascript": {
+      "backgroundColor": "#f4f4d7",
+      "applyToFiles": true
+    },
+    "01_javascript/06_funciones": {
+      "applyToSubfolders": false,
+      "backgroundColor": "#fbffe0",
+      "applyToFiles": true
+    },
+    "01_javascript/05_estructuras": {
+      "backgroundColor": "#f8ddf1",
+      "applyToSubfolders": false,
+      "applyToFiles": true
+    },
+    "01_javascript/04_primitivos": {
+      "backgroundColor": "#e4f8fb",
+      "applyToFiles": true
+    },
+    "01_javascript/07_destructuring": {
+      "backgroundColor": "#f7e5ff",
+      "applyToFiles": true
+    },
+    "01_javascript/08_control_flujo": {
+      "backgroundColor": "#fff3e5",
+      "applyToFiles": true
+    },
+    "01_javascript/04_primitivos/02_string_metodos": {
+      "applyToFiles": true,
+      "backgroundColor": "#c7e2ff"
+    },
+    "01_javascript/09_dom_y_eventos": {
+      "backgroundColor": "#ffd6d6",
+      "applyToFiles": true
+    },
+    "01_javascript/10_patrones": {
+      "backgroundColor": "#e4fbec"
+    },
+    "_notas_diarias": {
+      "backgroundColor": "#ffcd9e",
+      "applyToFiles": true
+    },
+    "03_backend/01_node": {
+      "backgroundColor": "#caf2d9",
+      "applyToFiles": true
+    },
+    "01_node": {
+      "backgroundColor": "#e4fbe8",
+      "applyToFiles": true
+    },
+    "03_node": {
+      "backgroundColor": "#def7e1",
+      "applyToFiles": true
+    },
+    "base_datos": {
+      "backgroundColor": "#e88154",
+      "textColor": "#ffffff",
+      "isBold": false,
+      "isItalic": false
+    },
+    "entornos_desarrollo": {
+      "backgroundColor": "#eaec89",
+      "textColor": "#000000"
+    },
+    "lenguaje_marcas": {
+      "backgroundColor": "#768ce5",
+      "textColor": "#ffffff"
+    },
+    "itinerario_personal_empleabilidad": {
+      "backgroundColor": "#b664e3",
+      "textColor": "#ffffff"
+    },
+    "sistemas_iformaticos": {
+      "backgroundColor": "#a1a1a1",
+      "textColor": "#ffffff"
+    },
+    "programacion": {
+      "backgroundColor": "#58a456",
+      "textColor": "#ffffff"
+    },
+    "sostenibilidad": {
+      "backgroundColor": "#ffcbc7"
+    },
+    "ingles": {
+      "backgroundColor": "#43b8d6",
+      "textColor": "#ffffff"
+    },
+    "ipe": {
+      "backgroundColor": "#d473f7",
+      "textColor": "#ffffff"
+    }
+  },
+  "presets": {},
+  "presetOrder": []
+}

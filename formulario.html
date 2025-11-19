@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Exemplo 2.9: formularios</title>
+</head>
+<body>
+23
+<form>
+Nome<br/>
+<input type="text" name="nome" value=""/><br/><br/>
+Contrasinal<br/>
+<input type="password" name="contrasinal"
+value=""/><br/><br/> Postos de traballo procurados<br/>
+<input name="puesto_directivo" type="checkbox"
+value="enderezo"/>Enderezo
+<input name="posto_tecnico" type="checkbox"
+value="tecnico"/> Técnico
+<input name="posto_empregado" type="checkbox"
+value="empregado"/> Empregado<br/><br/>
+Sexo<br/>
+<input type="radio" name="sexo" value="home"
+checked="checked"/>Home
+<input type="radio" name="sexo" value="muller"/>
+Muller<br/><br/>
+<input type="submit" name="procurar"
+value="Procurar"/><br/><br/>
+Nivel de estudos<br/>
+<select id="estudos" name="estudos">
+<option value="" selected="selected">- selecciona -
+</option>
+<option value="sen_estudos">Sen estudos</option>
+<option value="primarios">Primarios</option>
+<option value="secundaria">Secundaria</option>
+<option value="bacharelato">Bacharelato</option>
+<option value="tecnico">Técnico</option>
+<option value="tecnico_superior">Técnico superior</option><option value="universitarios">Estudos
+universitarios</option>
+</select><br/><br/>
+Escribe unha pequena presentación:<br/>
+<textarea id="presentacion" name="presentacion" cols="40"
+rows="5"></textarea><br/><br/>
+<input type="reset" name="limpar" value="Borrar datos do
+formula-rio"/><br/><br/>
+Escolla arquivo...<br/>
+<input type="file" name="adxunto"/><br/>
+<input type="hidden" name="empresa" value="Bankinter"/>
+<input type="image" name="enviar"
+src="http://librosweb.es/img/xhtml/ejemplo_input_type_image.gif"/><br/>
+<input type="button" name="gardar" value="Gardar Cambios"/></form>
+</body>
+</html>

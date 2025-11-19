@@ -1,0 +1,14 @@
+{
+  "cssTheme": "AnuPpuccin",
+  "accentColor": "",
+  "theme": "moonstone",
+  "nativeMenus": false,
+  "baseFontSizeAction": false,
+  "baseFontSize": 16,
+  "monospaceFontFamily": "Fira Code",
+  "enabledCssSnippets": [],
+  "showViewHeader": false,
+  "showRibbon": false,
+  "textFontFamily": "Besley",
+  "interfaceFontFamily": "Inter"
+}

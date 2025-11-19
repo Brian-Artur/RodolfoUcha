@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio 1</title>
+</head>
+<body>
+  <form action="" id="formulario">
+    <fieldset>
+      <legend>Datos Personales</legend>
+      <label for="nombre">Nombre</label>
+      <input type="text" name="nombre" id="nombre" required>
+      <label for="apellidos">Apellidos</label>
+      <input type="text" name="apellidos" id="apellidos">
+      <label for="fecha_nacimiento">Fecha de nacimiento</label>
+      <input type="date" name="fecha_nacimiento" id="fecha_nacimiento">
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>Datos de la Cuenta</legend>
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" required>
+      <label for="pass">Contraseña</label>
+      <input type="password" name="pass" id="pass">
+      <label for="passconfirm">Contraseña</label>
+      <input type="password" name="passconfirm" id="passconfirm">
+    </fieldset>
+    <br>
+    <input type="submit" name="submit" id="submid" value="Enviar">
+    <input type="reset" name="reset" id="reset" value="Borrar">
+  </form>
+  <script>
+    let contador = 0;
+  document.getElementById('formulario').addEventListener('submit', function(e) {
+    e.preventDefault(); // igual que si lo pusieras en JS directamente
+    contador++
+    alert(`Formulario interceptado sin recargar 🚀 - Contador: ${contador}`);
+  });
+</script>
+</body>
+</html>
