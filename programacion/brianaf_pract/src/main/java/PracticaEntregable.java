@@ -1,31 +1,45 @@
-import numeracion.CambioNumeracion;
-import utilidades.UtilObtencionDatos;
-import ahorcado.JuegoAhorcado;
+import utils.UtilGetData;
+import ahorcado.Ahorcado;
 import calculadora.Calculadora;
-import cesar.CifradoCesar;
+import cesar.CesarCip;
+import menu.Menu;
+import number.changNum;
 
-public class PracticaEntregable {
+public class Entry {
   public static void main(String[] args) {
     boolean continuar = true;
 
     while (continuar) {
-      int opcion = UtilObtencionDatos.mostrarMenu(
-        """
-        === MENÚ PRINCIPAL ===
-        1. Convertir numeración
-        2. Jugar al ahorcado
-        3. Calculadora
-        4. Cifrado César
-        5. Salir
-        Elige una opción: """,
+      int opcion = UtilGetData.mostrarMenu(
+       Menu.menuEntry,
         1, 5
       );
 
       switch (opcion) {
-        case 1 -> CambioNumeracion.ejecutar();
-        case 2 -> JuegoAhorcado.ejecutar();
-        case 3 -> Calculadora.ejecutar();
-        case 4 -> CifradoCesar.ejecutar();
+        case 1 -> {
+          boolean salir = changNum.exe();
+           if (salir) {
+            continuar = false;
+          }
+        }
+        case 2 -> {
+          boolean salir = Ahorcado.ejecutar();
+           if (salir) {
+            continuar = false;
+          }
+        }
+        case 3 -> {
+          boolean salir = Calculadora.exe();
+          if (salir) {
+            continuar = false;
+          }
+        }
+        case 4 -> {
+          boolean salir = CesarCip.exe();
+          if (salir) {
+            continuar = false;
+          }
+        }
         case 5 -> {
           System.out.println("¡Hasta pronto!");
           continuar = false;

@@ -1,53 +1,56 @@
 package cesar;
 
-import utilidades.UtilObtencionDatos;
 import menu.Menu;
-import utilidades.UtilCifrado;
+import utils.UtilEncry;
+import utils.UtilGetData;
 
-public class CifradoCesar {
+public class CesarCip {
 
-  private static int desplazamiento = 1; // Valor por defecto
+  private static int move = 1; // Valor por defecto
 
-  public static void ejecutar() {
-    boolean volver = false;
+  public static boolean exe() {
+    boolean back = false;
 
-    while (!volver) {
-      int opcion = UtilObtencionDatos.mostrarMenu(
-        Menu.menuCesar.formatted(desplazamiento),
-        1, 
-        4
-      );
+    while (!back) {
+      int option = UtilGetData.mostrarMenu(
+          Menu.menuCesar.formatted(move),
+          1,
+          5);
 
-      switch (opcion) {
-        case 1 -> configurarDesplazamiento();
-        case 2 -> cifrarTexto();
-        case 3 -> descifrarTexto();
-        case 4 -> volver = true;
+      switch (option) {
+        case 1 -> configDesp();
+        case 2 -> cifrar();
+        case 3 -> descifrar();
+        case 4 -> back = true;
+        case 5 -> {
+          System.out.println("Saliendo del programa...");
+          return true;
+        }
       }
+    }
+    return false;
+  }
+
+  private static void configDesp() {
+    int ch = UtilGetData.obtenerEntero(
+        "Introduce el desplazamiento (1-25, actual: " + move + "): ");
+    if (ch < 1 || ch > 25) {
+      System.out.println("Error: el desplazamiento debe estar entre 1 y 25.");
+    } else {
+      move = ch;
+      System.out.println("Desplazamiento actualizado a: " + move);
     }
   }
 
-    private static void configurarDesplazamiento() {
-        int nuevo = UtilObtencionDatos.pedirEntero(
-            "Introduce el desplazamiento (1-25, actual: " + desplazamiento + "): "
-        );
-        if (nuevo < 1 || nuevo > 25) {
-            System.out.println("Error: el desplazamiento debe estar entre 1 y 25.");
-        } else {
-            desplazamiento = nuevo;
-            System.out.println("Desplazamiento actualizado a: " + desplazamiento);
-        }
-    }
+  private static void cifrar() {
+    String txt = UtilGetData.obtenerCadena("Introduce el txt a cifrar: ");
+    String cifrado = UtilEncry.cifrar(txt, move);
+    System.out.println("txt cifrado: " + cifrado);
+  }
 
-    private static void cifrarTexto() {
-        String texto = UtilObtencionDatos.pedirCadena("Introduce el texto a cifrar: ");
-        String cifrado = UtilCifrado.cifrar(texto, desplazamiento);
-        System.out.println("Texto cifrado: " + cifrado);
-    }
-
-    private static void descifrarTexto() {
-        String texto = UtilObtencionDatos.pedirCadena("Introduce el texto a descifrar: ");
-        String descifrado = UtilCifrado.descifrar(texto, desplazamiento);
-        System.out.println("Texto descifrado: " + descifrado);
-    }
+  private static void descifrar() {
+    String txt = UtilGetData.obtenerCadena("Introduce el txt a descifrar: ");
+    String descifrado = UtilEncry.descifrar(txt, move);
+    System.out.println("txt descifrado: " + descifrado);
+  }
 }
