@@ -1,0 +1,93 @@
+# =============================================
+# GUÍA COMPLETA EN UN SOLO SCRIPT POWERShell
+# Ruta base (se crea en C:\)
+# =============================================
+
+$raiz = "C:\DepartamentoIT"
+
+# 1. Crear la estructura inicial de carpetas
+Write-Host "1. Creando estructura de carpetas..." -ForegroundColor Cyan
+
+New-Item -Path $raiz -ItemType Directory -Force | Out-Null
+New-Item -Path "$raiz\Proyectos\ProyectoA"      -ItemType Directory -Force | Out-Null
+New-Item -Path "$raiz\Proyectos\ProyectoB"      -ItemType Directory -Force | Out-Null
+New-Item -Path "$raiz\Documentacion\Manuales"   -ItemType Directory -Force | Out-Null
+New-Item -Path "$raiz\Documentacion\Informes"   -ItemType Directory -Force | Out-Null
+
+# 2. Crear archivos con contenido
+Write-Host "2. Creando archivos con contenido..." -ForegroundColor Cyan
+
+# Archivos en cada proyecto
+@("ProyectoA", "ProyectoB") | ForEach-Object {
+    "Este es el README del $_"      | Out-File -FilePath "$raiz\Proyectos\$_\readme.txt"  -Encoding UTF8
+    "Tareas pendientes de $_"       | Out-File -FilePath "$raiz\Proyectos\$_\tareas.txt" -Encoding UTF8
+}
+
+# Archivos en Informes
+"Informe mensual - Enero"  | Out-File -FilePath "$raiz\Documentacion\Informes\informe1.txt" -Encoding UTF8
+"Informe mensual - Febrero" | Out-File -FilePath "$raiz\Documentacion\Informes\informe2.txt" -Encoding UTF8
+"Informe mensual - Marzo"   | Out-File -FilePath "$raiz\Documentacion\Informes\informe3.txt" -Encoding UTF8
+
+# 3. Manipulación de archivos
+Write-Host "3. Realizando copias, movimientos y renombrados..." -ForegroundColor Cyan
+
+# Copiar informe1.txt a ProyectoA
+Copy-Item -Path "$raiz\Documentacion\Informes\informe1.txt" -Destination "$raiz\Proyectos\ProyectoA\"
+
+# Mover informe3.txt a Manuales
+Move-Item -Path "$raiz\Documentacion\Informes\informe3.txt" -Destination "$raiz\Documentacion\Manuales\"
+
+# Renombrar tareas.txt de ProyectoB
+Rename-Item -Path "$raiz\Proyectos\ProyectoB\tareas.txt" -NewName "tareas_pendientes.txt"
+
+# Cambiar extensión solo del readme.txt de ProyectoA a .md
+Rename-Item -Path "$raiz\Proyectos\ProyectoA\readme.txt" -NewName "readme.md"
+
+# 4. Consultar y filtrar información
+Write-Host "4. Listado de archivos en C:\DepartamentoIT" -ForegroundColor Cyan
+
+# Todos los archivos con tamaño en KB
+Get-ChildItem -Path $raiz -Recurse -File |
+    Select-Object Name, @{Name="Tamaño KB";Expression={[math]::Round($_.Length/1KB,2)}}, FullName
+
+Write-Host "`nArchivos con extensión .txt" -ForegroundColor Yellow
+Get-ChildItem -Path $raiz -Recurse -File -Filter "*.txt" |
+    Select-Object Name, @{Name="Tamaño KB";Expression={[math]::Round($_.Length/1KB,2)}} |
+    Sort-Object "Tamaño KB" -Descending | Format-Table -AutoSize
+
+# 5. Operaciones finales
+Write-Host "5. Eliminando ProyectoB y creando resumen..." -ForegroundColor Cyan
+
+# Eliminar toda la carpeta ProyectoB
+Remove-Item -Path "$raiz\Proyectos\ProyectoB" -Recurse -Force
+
+# Crear resumen.txt
+$resumenPath = "$raiz\resumen.txt"
+
+@"
+RESUMEN DEL DEPARTAMENTO IT - $(Get-Date -Format "dd/MM/yyyy HH:mm")
+
+CARPETAS EXISTENTES:
+$(
+    Get-ChildItem -Path $raiz -Recurse -Directory |
+    ForEach-Object { "  " + $_.FullName.Substring($raiz.Length) }
+)
+
+ARCHIVOS EXISTENTES:
+$(
+    Get-ChildItem -Path $raiz -Recurse -File |
+    ForEach-Object { "  " + $_.Name + "  ({0:N2} KB)" -f ($_.Length/1KB) + " KB" }
+)
+
+Fecha de generación del resumen: $(Get-Date)
+"@ | Out-File -FilePath $resumenPath -Encoding UTF8
+
+Write-Host "resumen.txt creado en $resumenPath" -ForegroundColor Green
+
+# Comprimir todo el directorio DepartamentoIT en un ZIP
+Write-Host "Comprimiendo C:\DepartamentoIT en C:\DepartamentoIT.zip..." -ForegroundColor Cyan
+
+Compress-Archive -Path $raiz -DestinationPath "C:\DepartamentoIT.zip" -Force
+
+Write-Host "¡Todo completado!" -ForegroundColor Green
+Write-Host "Archivo comprimido: C:\DepartamentoIT.zip" -ForegroundColor Green
