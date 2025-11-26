@@ -13,37 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "programacion/UD1/Boletin Strings 1.pdf"
+                "file": "programacion/UD3/Practica 1a Ev.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Boletin Strings 1"
-            }
-          },
-          {
-            "id": "b4b241d44b3ea9ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sistemas_iformaticos/UD1/01_introduccion.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "01_introduccion"
-            }
-          },
-          {
-            "id": "706f4e88b95d5bfc",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "ipe/UD1/Drawing 2025-10-08 18.22.07.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-10-08 18.22.07.excalidraw"
+              "title": "Practica 1a Ev"
             }
           }
         ]
@@ -157,22 +130,24 @@
   },
   "active": "ebc89ee0405b53c8",
   "lastOpenFiles": [
-    "programacion/EjerciciosJava/target/classes/strings1/Ejer13.class",
-    "programacion/EjerciciosJava/src/main/java/strings1/Ejer13.java",
-    "sistemas_iformaticos/UD1/01_introduccion.md",
-    "programacion/UD1/Boletin Strings 1.pdf",
+    "programacion/UD3/Estructuras de almacenamiento. Arrays.pdf",
+    "programacion/UD3/Practica 1a Ev.pdf",
+    "programacion/brianaf_prac1eva/src/main/java/utils/UtilObtencionDatos.java",
+    "programacion/brianaf_prac1eva/src/main/java/utils/UtilCifrado.java",
+    "programacion/brianaf_prac1eva/src/main/java/utils/UtilCambioNumeracion.java",
+    "programacion/brianaf_prac1eva/src/main/java/utilidades/UtilObtencionDatos.java",
+    "programacion/brianaf_prac1eva/src/main/java/utilidades/UtilCifrado.java",
+    "programacion/brianaf_prac1eva/src/main/java/utilidades/UtilCambioNumeracion.java",
+    "programacion/brianaf_prac1eva/src/main/java/principal/MenuPrincipal.java",
+    "programacion/brianaf_prac1eva/src/main/java/numeracion/CambioNumeracion.java",
+    "programacion/brianaf_prac1eva/src/main/java/number/CambioNumeracion.java",
+    "ipe/26.11.md",
+    "ipe/25-11.md",
     "ipe/UD1/Drawing 2025-10-08 18.22.07.excalidraw.md",
-    "programacion/UD1/Ejercicios Java 4.pdf",
+    "sistemas_iformaticos/UD1/01_introduccion.md",
     "ipe/UD1/03_factores_riesgo_prevencion.md",
     "ipe/UD1/assets/2025-10-08_18-26-32.png",
-    "ipe/UD1/assets",
     "ipe/UD1/04_factores_riesgo_prevencion.md",
-    "lenguaje_marcas/UD2/05_tablas.pdf",
-    "lenguaje_marcas/UD2/05_boletin4/index2.html",
-    "lenguaje_marcas/UD2/05_boletin4/index.html",
-    "lenguaje_marcas/UD2/05_boletin4",
-    "lenguaje_marcas/UD2/Nueva carpeta",
-    "lenguaje_marcas/UD2/04_boletin_multimedia.pdf",
     "lenguaje_marcas/UD2/04_boletin_multimedia_3/img/poster.png",
     "lenguaje_marcas/UD2/04_boletin_multimedia_3/img/s25.webp",
     "lenguaje_marcas/25-09-15.md",
@@ -200,8 +175,6 @@
     "Bienvenido.md",
     "03_node/05_intro_testing.md",
     "03_node/04_node_ts.md",
-    "03_node/03_bases.md",
-    "03_node/00_dependencias.md",
-    "03_backend/99_servidor_cliente.md"
+    "03_node/03_bases.md"
   ]
 }
