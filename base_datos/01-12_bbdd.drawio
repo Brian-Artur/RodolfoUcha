@@ -1,0 +1,510 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.1.1" pages="3">
+  <diagram name="Ejer1" id="W6YuMlnUqO_RnVJafYCU">
+    <mxGraphModel dx="2954" dy="1238" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="upFkIyLLgCG5yTHS9hMN-1" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=25;labelBackgroundColor=none;" value="Pinoteca ( &lt;b&gt;&lt;u&gt;nombre_pin&lt;/u&gt;&lt;/b&gt;&amp;nbsp;, ciudad, direccions, m2 )" vertex="1">
+          <mxGeometry height="12" width="640" x="-780" y="102" as="geometry" />
+        </mxCell>
+        <mxCell id="upFkIyLLgCG5yTHS9hMN-2" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=25;labelBackgroundColor=none;spacing=1;" value="Cuadro ( &lt;u&gt;&lt;b&gt;cod_cuadro&lt;/b&gt;&lt;/u&gt; , dimensiones , tecnica , fecha , nombre_cua , &lt;i&gt;nombre_pin , titulo_pin&lt;/i&gt; )" vertex="1">
+          <mxGeometry height="12" width="1130" x="-780" y="183" as="geometry" />
+        </mxCell>
+        <mxCell id="upFkIyLLgCG5yTHS9hMN-3" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=25;labelBackgroundColor=none;spacing=1;" value="Pintor ( &lt;b&gt;&lt;u&gt;titulo&lt;/u&gt; &lt;/b&gt;, nacionalidad , productor , fecha_pin , &lt;i&gt;cod_mecenas&lt;/i&gt; , &lt;i&gt;nombre_esc&lt;/i&gt; ,&amp;nbsp; tipo , &lt;i&gt;maestro&lt;/i&gt; )" vertex="1">
+          <mxGeometry height="12" width="1290" x="-780" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="upFkIyLLgCG5yTHS9hMN-4" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=25;labelBackgroundColor=none;" value="Escuela ( &lt;u&gt;&lt;b&gt;nombre_esc&lt;/b&gt;&lt;/u&gt; , país , fecha_esc )" vertex="1">
+          <mxGeometry height="12" width="710" x="-780" y="495" as="geometry" />
+        </mxCell>
+        <mxCell id="upFkIyLLgCG5yTHS9hMN-5" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=25;labelBackgroundColor=none;" value="Mecenas ( &lt;u&gt;&lt;b&gt;cod_mecenas&lt;/b&gt;&lt;/u&gt; , fecha_nacim , fecha_defuncion , nombre_mec , pais , ciudad_mec )" vertex="1">
+          <mxGeometry height="12" width="1080" x="-780" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="upFkIyLLgCG5yTHS9hMN-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;labelBackgroundColor=none;fontColor=default;spacing=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="164" y="223" />
+              <mxPoint x="-662" y="224" />
+            </Array>
+            <mxPoint x="180" y="210" as="sourcePoint" />
+            <mxPoint x="-678" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upFkIyLLgCG5yTHS9hMN-7" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;labelBackgroundColor=none;fontColor=default;spacing=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-36" y="148" />
+              <mxPoint x="-531" y="151" />
+            </Array>
+            <mxPoint x="8" y="177" as="sourcePoint" />
+            <mxPoint x="-564" y="125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upFkIyLLgCG5yTHS9hMN-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;labelBackgroundColor=none;fontColor=default;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-421" y="385" />
+              <mxPoint x="-559" y="384" />
+            </Array>
+            <mxPoint x="-393" y="360" as="sourcePoint" />
+            <mxPoint x="-575" y="407" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upFkIyLLgCG5yTHS9hMN-9" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;labelBackgroundColor=none;fontColor=default;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="65" y="381" />
+              <mxPoint x="342" y="389" />
+              <mxPoint x="344" y="458" />
+              <mxPoint x="-148" y="458" />
+              <mxPoint x="-554" y="472" />
+            </Array>
+            <mxPoint x="30" y="280" as="sourcePoint" />
+            <mxPoint x="-570" y="495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upFkIyLLgCG5yTHS9hMN-10" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;labelBackgroundColor=none;fontColor=default;spacing=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="206" y="238" />
+              <mxPoint x="-619" y="235" />
+            </Array>
+            <mxPoint x="241" y="248" as="sourcePoint" />
+            <mxPoint x="-640" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upFkIyLLgCG5yTHS9hMN-11" parent="1" style="text;whiteSpace=wrap;fontSize=25;labelBackgroundColor=none;" value="MECENAS &#xa;atributo                     Dominio óptimo                      Restricións necesarias&#xa;cod_mecenas           INT                                         PRIMARY KEY, NOT NULL, UNIQUE&#xa;fecha_nacim             DATE                                     NOT NULL&#xa;fecha_defuncion       DATE                                     NOT NULL&#xa;nombre                     VARCHAR(100)                     NOT NULL&#xa;país                           VARCHAR(50)                       NOT NULL" vertex="1">
+          <mxGeometry height="240" width="1125" x="-755" y="1680" as="geometry" />
+        </mxCell>
+        <mxCell id="upFkIyLLgCG5yTHS9hMN-12" parent="1" style="text;whiteSpace=wrap;fontSize=25;labelBackgroundColor=none;" value="CUADRO&#xa;Atributo                 Dominio óptimo                    Restricións necesarias&#xa;cod_cuadro           INT                                         PRIMARY KEY, NOT NULL, UNIQUE&#xa;nombre_cua          VARCHAR(100)                    NOT NULL&#xa;dimensiones          VARCHAR(50)                       Validación opcional de formato (ex. &quot;100x200 cm&quot;)&#xa;tecnica                   VARCHAR(150)                    NOT NULL&#xa;fecha                     Date                                       NOT NULL&#xa;nombre_pin           VARCHAR(100)                    NOT NULL&#xa;titulo_pin                VARCHAR(100)                    NOT NULL" vertex="1">
+          <mxGeometry height="390" width="1320" x="-750" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="upFkIyLLgCG5yTHS9hMN-13" parent="1" style="text;whiteSpace=wrap;fontSize=25;labelBackgroundColor=none;" value="PINTOR &#xa;Atributo               Dominio óptimo                    Restricións necesarias&#xa;titulo                    VARCHAR(100)                   PRIMARY KEY, NOT NULL, UNIQUE&#xa;país                     VARCHAR(50)                     NOT NULL, CHECK con lista de países válidos&#xa;fecha_pin            DATE                                    NOT NULL, CHECK &lt; data actual&#xa;cod_mecenas     INT                                        NOT NULL&#xa;nombre_esc        VARVHAR(100)                   NOT NULL&#xa;maestro               VARCHAR(100)                   NOT NULL" vertex="1">
+          <mxGeometry height="290" width="1080" x="-750" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="upFkIyLLgCG5yTHS9hMN-15" parent="1" style="text;whiteSpace=wrap;fontSize=25;labelBackgroundColor=none;" value="PINACOTECA &#xa;Atributo                      Dominio óptimo               Restricións necesarias&#xa;nombre_pin                VARCHAR(100)               PRIMARY KEY, NOT NULL, UNIQUE&#xa;ciudad                        VARCHAR(50)                 NOT NULL&#xa;m2                              float                                 NOT NULL" vertex="1">
+          <mxGeometry height="180" width="1100" x="-750" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="upFkIyLLgCG5yTHS9hMN-16" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=25;labelBackgroundColor=none;" value="Relacionar (&lt;u&gt;&lt;b&gt; &lt;i&gt;titulo_pin , cod_mecenas&lt;/i&gt;&lt;/b&gt;&lt;/u&gt; )" vertex="1">
+          <mxGeometry height="12" width="1080" x="-780" y="332" as="geometry" />
+        </mxCell>
+        <mxCell id="upFkIyLLgCG5yTHS9hMN-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;labelBackgroundColor=none;fontColor=default;spacing=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-600" y="300" />
+              <mxPoint x="-628" y="298" />
+            </Array>
+            <mxPoint x="-581" y="322" as="sourcePoint" />
+            <mxPoint x="-653" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3IbbNnmYlaF-Esn1SpMv-1" parent="1" style="text;whiteSpace=wrap;fontSize=25;labelBackgroundColor=none;" value="RELACIONAR&#xa;Atributo                         Dominio óptimo                    Restricións necesarias&#xa;titulo_pin                       VARCHAR(100)                   NOT NULL&#xa;cod_mecenas               VARCHAR(50)                      NOT NULL" vertex="1">
+          <mxGeometry height="200" width="1180" x="-755" y="1460" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Ejer2" id="-HCGD4chL58HboumJWQj">
+    <mxGraphModel dx="2552" dy="1486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AX-rauDx4bFaqB5NJjvg-1" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=25;fontColor=default;labelBackgroundColor=none;" value="&lt;font&gt;ARTÍCULO ( &lt;b&gt;&lt;u&gt;cod_art&lt;/u&gt;&lt;/b&gt; , nom_art , color_art , &lt;i&gt;cod_dep&lt;/i&gt;)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="630" x="139" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="xy0oeyLkbmTRMyGhbMc--1" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=25;fontColor=default;labelBackgroundColor=none;" value="&lt;font&gt;VENDE ( &lt;i&gt;&lt;b&gt;&lt;u&gt;cod_art , cod_cli , cod_ven&lt;/u&gt;&lt;/b&gt;,&lt;/i&gt; fecha)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="590" x="139" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="WQ-3SnoJ5O_ggkxHnMTW-1" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=25;fontColor=default;labelBackgroundColor=none;" value="CLIENTE ( &lt;u&gt;&lt;b&gt;cod_cli &lt;/b&gt;&lt;/u&gt;, dom , nom , apel )" vertex="1">
+          <mxGeometry height="70" width="451" x="139" y="514" as="geometry" />
+        </mxCell>
+        <mxCell id="WQ-3SnoJ5O_ggkxHnMTW-2" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=25;fontColor=default;labelBackgroundColor=none;" value="DEPARTAMENTO ( &lt;b style=&quot;text-decoration-line: underline;&quot;&gt;cod_dep&lt;/b&gt;&amp;nbsp;, piso , &lt;i&gt;cod_ger&lt;/i&gt; )" vertex="1">
+          <mxGeometry height="70" width="581" x="444.5" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="N_ODT-i5v4vmy21vjCvs-1" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;labelBackgroundColor=none;fontColor=default;spacing=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="391" y="506" />
+              <mxPoint x="341" y="513" />
+            </Array>
+            <mxPoint x="404" y="484" as="sourcePoint" />
+            <mxPoint x="330" y="538" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N_ODT-i5v4vmy21vjCvs-3" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=25;fontColor=default;labelBackgroundColor=none;" value="GERENTE ( &lt;u&gt;&lt;b&gt;cod_ger&lt;/b&gt;&lt;/u&gt;&amp;nbsp;)" vertex="1">
+          <mxGeometry height="30" width="300" x="139" y="859" as="geometry" />
+        </mxCell>
+        <mxCell id="N_ODT-i5v4vmy21vjCvs-4" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=25;fontColor=default;labelBackgroundColor=none;" value="TRABAJADOR ( &lt;u&gt;&lt;b&gt;cod_tra&lt;/b&gt;&lt;/u&gt;&amp;nbsp;, tipo_t , &lt;i&gt;cod_dep&lt;/i&gt; )" vertex="1">
+          <mxGeometry height="40" width="530" x="139" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="jOH8q4cuqQhd6Yo32YlB-1" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=25;fontColor=default;labelBackgroundColor=none;" value="JEFE ( &lt;b&gt;&lt;u&gt;cod_jef&lt;/u&gt;&lt;/b&gt;&amp;nbsp;, &lt;i&gt;cod_ger&lt;/i&gt; )" vertex="1">
+          <mxGeometry height="40" width="311" x="139" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="BhlygZASEyt_fMJNWcCp-1" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;labelBackgroundColor=none;fontColor=default;spacing=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="300" y="463" as="sourcePoint" />
+            <mxPoint x="314" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uN_G9S0Q3AInpVzWcp_9-1" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;labelBackgroundColor=none;fontColor=default;spacing=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="740" />
+              <mxPoint x="727" y="743" />
+            </Array>
+            <mxPoint x="591" y="716" as="sourcePoint" />
+            <mxPoint x="727" y="878" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uN_G9S0Q3AInpVzWcp_9-4" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=25;fontColor=default;labelBackgroundColor=none;" value="VENDEDOR ( &lt;b&gt;&lt;u&gt;&lt;i&gt;cod_ven&lt;/i&gt;&lt;/u&gt;&lt;/b&gt;&amp;nbsp;, &lt;i&gt;cod_jef&amp;nbsp;&lt;/i&gt;)" vertex="1">
+          <mxGeometry height="30" width="410" x="470" y="615" as="geometry" />
+        </mxCell>
+        <mxCell id="uN_G9S0Q3AInpVzWcp_9-7" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;labelBackgroundColor=none;fontColor=default;spacing=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="673" y="430.5" />
+              <mxPoint x="869" y="438.5" />
+              <mxPoint x="869" y="841" />
+              <mxPoint x="783" y="840" />
+            </Array>
+            <mxPoint x="660" y="408.5" as="sourcePoint" />
+            <mxPoint x="753" y="871" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SbZl5xE2Z3RZr34u1F_H-1" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=3;labelBackgroundColor=none;fontColor=default;spacing=1;startArrow=classic;startFill=1;endFill=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="383" y="929" />
+              <mxPoint x="884" y="929" />
+            </Array>
+            <mxPoint x="369" y="893" as="sourcePoint" />
+            <mxPoint x="908" y="902" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SbZl5xE2Z3RZr34u1F_H-2" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=20;fontColor=#6999FF;labelBackgroundColor=none;" value="BC:MC" vertex="1">
+          <mxGeometry height="20" width="69" x="231" y="423" as="geometry" />
+        </mxCell>
+        <mxCell id="SbZl5xE2Z3RZr34u1F_H-3" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=20;fontColor=#6999FF;labelBackgroundColor=none;" value="BC:MC" vertex="1">
+          <mxGeometry height="70" width="90" x="310" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="SbZl5xE2Z3RZr34u1F_H-5" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=20;fontColor=#6999FF;labelBackgroundColor=none;" value="BC:MC" vertex="1">
+          <mxGeometry height="20" width="63" x="800" y="733" as="geometry" />
+        </mxCell>
+        <mxCell id="SbZl5xE2Z3RZr34u1F_H-6" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=20;fontColor=#6999FF;labelBackgroundColor=none;" value="BC:MC" vertex="1">
+          <mxGeometry height="30" width="90" x="590" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="SbZl5xE2Z3RZr34u1F_H-7" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=20;fontColor=#6999FF;labelBackgroundColor=none;" value="BC:MC" vertex="1">
+          <mxGeometry height="70" width="90" x="560" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="5xP1ABe0e5Xv4y3DCBn5-2" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=25;fontColor=default;labelBackgroundColor=none;" value="EMPLEADO ( &lt;b&gt;&lt;u&gt;cod_emp&lt;/u&gt;&lt;/b&gt;&amp;nbsp;, nom , apel , dir , tipo_e )" vertex="1">
+          <mxGeometry height="30" width="590" x="139" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="5xP1ABe0e5Xv4y3DCBn5-3" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;labelBackgroundColor=none;fontColor=default;spacing=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="354" y="772" as="sourcePoint" />
+            <mxPoint x="371" y="729" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5xP1ABe0e5Xv4y3DCBn5-5" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=20;fontColor=#6999FF;labelBackgroundColor=none;" value="BC:MC" vertex="1">
+          <mxGeometry height="30" width="59" x="287" y="733" as="geometry" />
+        </mxCell>
+        <mxCell id="5xP1ABe0e5Xv4y3DCBn5-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;labelBackgroundColor=none;fontColor=default;spacing=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="366" y="810" as="sourcePoint" />
+            <mxPoint x="347" y="859" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5xP1ABe0e5Xv4y3DCBn5-9" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=20;fontColor=#6999FF;labelBackgroundColor=none;" value="BC:MC" vertex="1">
+          <mxGeometry height="30" width="59" x="363" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="5xP1ABe0e5Xv4y3DCBn5-10" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;labelBackgroundColor=none;fontColor=default;spacing=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="340" y="687" as="sourcePoint" />
+            <mxPoint x="295" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5xP1ABe0e5Xv4y3DCBn5-11" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=20;fontColor=#6999FF;labelBackgroundColor=none;" value="BC:MC" vertex="1">
+          <mxGeometry height="30" width="59" x="251" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="5xP1ABe0e5Xv4y3DCBn5-14" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;labelBackgroundColor=none;fontColor=default;spacing=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="439" y="672" />
+              <mxPoint x="643" y="669" />
+            </Array>
+            <mxPoint x="413" y="693" as="sourcePoint" />
+            <mxPoint x="671" y="648" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5xP1ABe0e5Xv4y3DCBn5-15" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=20;fontColor=#6999FF;labelBackgroundColor=none;" value="BC:MC" vertex="1">
+          <mxGeometry height="20" width="63" x="669" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="5xP1ABe0e5Xv4y3DCBn5-16" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=20;fontColor=#6999FF;labelBackgroundColor=none;" value="BC:MC" vertex="1">
+          <mxGeometry height="20" width="63" x="497" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="5xP1ABe0e5Xv4y3DCBn5-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;labelBackgroundColor=none;fontColor=default;spacing=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="518" />
+              <mxPoint x="690" y="540" />
+            </Array>
+            <mxPoint x="510" y="483" as="sourcePoint" />
+            <mxPoint x="693" y="622" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yg-vT87ym5UBqfuhL_MY-1" parent="1" style="text;whiteSpace=wrap;fontSize=25;labelBackgroundColor=none;fontStyle=0" value="ARTICULO&#xa;Atributo                 Dominio óptimo                    Restricións necesarias&#xa;cod_cuadro           INT                                       PRIMARY KEY, NOT NULL, UNIQUE&#xa;nom_art                VARCHAR(100)                    NOT NULL&#xa;color_art               VARCHAR(100)                    NOT NULL&#xa;cod_dep               INT                                        FOREIGN KEY -&gt; DEPARTAMENTO" vertex="1">
+          <mxGeometry height="230" width="1320" x="171.5" y="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="Yg-vT87ym5UBqfuhL_MY-3" parent="1" style="text;whiteSpace=wrap;fontSize=25;labelBackgroundColor=none;fontStyle=0" value="CLIENTE&#xa;Atributo                 Dominio óptimo                    Restricións necesarias&#xa;cod_cli                  INT                                       PRIMARY KEY, NOT NULL, UNIQUE&#xa;dom                      VARCHAR(50)                      NOT NULL&#xa;nom                      VARCHAR(50)                      NOT NULL&#xa;ape                      VARCHAR(50)                       NOT NULL&#xa;" vertex="1">
+          <mxGeometry height="230" width="1320" x="171.5" y="1481" as="geometry" />
+        </mxCell>
+        <mxCell id="Yg-vT87ym5UBqfuhL_MY-4" parent="1" style="text;whiteSpace=wrap;fontSize=25;labelBackgroundColor=none;fontStyle=0" value="DEPARTAMENTO&#xa;Atributo                 Dominio óptimo                    Restricións necesarias&#xa;cod_dep                INT                                       PRIMARY KEY, NOT NULL, UNIQUE&#xa;piso                      SMALLINT                            NOT NULL&#xa;cod_ger                 INT                                       FOREIGN KEY -&gt; GERENTE                 &#xa;" vertex="1">
+          <mxGeometry height="230" width="1320" x="171.5" y="1721" as="geometry" />
+        </mxCell>
+        <mxCell id="Yg-vT87ym5UBqfuhL_MY-6" parent="1" style="text;whiteSpace=wrap;fontSize=25;labelBackgroundColor=none;fontStyle=0" value="EMPLEADO&#xa;Atributo                 Dominio óptimo                    Restricións necesarias&#xa;cod_emp               INT                                       PRIMARY KEY, NOT NULL, UNIQUE&#xa;dom                      VARCHAR(50)                      NOT NULL&#xa;nom                      VARCHAR(50)                      NOT NULL&#xa;apel                       VARCHAR(50)                      NOT NULL&#xa;dir                          VARCHAR(100)                   NOT NULL&#xa;tipo_e                    VARCHAR(20)                     CHECK ( &quot;TRABAJADOR&quot; , &quot;GERENTE&quot;)" vertex="1">
+          <mxGeometry height="290" width="1320" x="171.5" y="1932" as="geometry" />
+        </mxCell>
+        <mxCell id="Yg-vT87ym5UBqfuhL_MY-8" parent="1" style="text;whiteSpace=wrap;fontSize=25;labelBackgroundColor=none;fontStyle=0" value="TRABAJADOR&#xa;Atributo                 Dominio óptimo                    Restricións necesarias&#xa;cod_tra                 INT                                        PRIMARY KEY, NOT NULL, UNIQUE&#xa;tipo_e                    VARCHAR(20)                     CHECK ( &quot;VENDEDOR&quot; , &quot;JEFE&quot; )&#xa;cod_ger                 INT                                       FOREIGN KEY -&gt; GERENTE                 &#xa;" vertex="1">
+          <mxGeometry height="230" width="1320" x="171.5" y="2203" as="geometry" />
+        </mxCell>
+        <mxCell id="Yg-vT87ym5UBqfuhL_MY-9" parent="1" style="text;whiteSpace=wrap;fontSize=25;labelBackgroundColor=none;fontStyle=0" value="JEFE&#xa;Atributo                 Dominio óptimo                    Restricións necesarias&#xa;cod_jef                 INT                                        PRIMARY KEY, NOT NULL, UNIQUE&#xa;cod_ger                 INT                                       FOREIGN KEY -&gt; GERENTE                 &#xa;" vertex="1">
+          <mxGeometry height="160" width="1320" x="171.5" y="2479" as="geometry" />
+        </mxCell>
+        <mxCell id="Yg-vT87ym5UBqfuhL_MY-11" parent="1" style="text;whiteSpace=wrap;fontSize=25;labelBackgroundColor=none;fontStyle=0" value="GERENTE&#xa;Atributo                 Dominio óptimo                    Restricións necesarias&#xa;cod_ger                 INT                                       PRIMARY KEY, NOT NULL, UNIQUE            &#xa;" vertex="1">
+          <mxGeometry height="160" width="1320" x="171.5" y="2719" as="geometry" />
+        </mxCell>
+        <mxCell id="Yg-vT87ym5UBqfuhL_MY-12" parent="1" style="text;whiteSpace=wrap;fontSize=25;labelBackgroundColor=none;fontStyle=0" value="VENDE&#xa;Atributo                 Dominio óptimo                    Restricións necesarias&#xa;cod_cli                   INT                                       FOREIGN KEY -&gt; CLIENTE &#xa;cod_art                  INT                                       FOREIGN KEY -&gt; ARTICULO &#xa;cod_ven                  INT                                      FOREIGN KEY -&gt; VENDEDOR&#xa;fecha                     DATE                                    NOT NULL          &#xa;&#xa;" vertex="1">
+          <mxGeometry height="160" width="1320" x="171.5" y="2960" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Ejer3" id="7BMeFRs7UA2PlLHVk13v">
+    <mxGraphModel dx="2537" dy="1385" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ON628qAyOaXds6k2XCL8-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=26;" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;RECURSO ( &lt;b&gt;&lt;u&gt;cod_rec&lt;/u&gt;&lt;/b&gt; , nomb , desc , ubic , uds )&lt;/p&gt;" vertex="1">
+          <mxGeometry height="50" width="575" x="195" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ON628qAyOaXds6k2XCL8-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=26;" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;MATERIA ( &lt;u&gt;&lt;b&gt;cod_mat&lt;/b&gt;&lt;/u&gt; )&lt;/p&gt;" vertex="1">
+          <mxGeometry height="50" width="280" x="820" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="ON628qAyOaXds6k2XCL8-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=26;" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;EMPLEADO ( &lt;u&gt;&lt;b&gt;cod_emp&lt;/b&gt;&lt;/u&gt; , nomb, apel , dire , telf , horar , tipo_empl)&lt;/p&gt;" vertex="1">
+          <mxGeometry height="50" width="805" x="195" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="ON628qAyOaXds6k2XCL8-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=26;" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;ALUMNO (&lt;b&gt;&lt;u&gt;cod_emp&lt;/u&gt;&lt;/b&gt; , antiguedad)&lt;/p&gt;" vertex="1">
+          <mxGeometry height="50" width="420" x="760" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="ON628qAyOaXds6k2XCL8-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=26;" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;DOC_CAPAC ( &lt;u&gt;&lt;b&gt;cod_emp&lt;/b&gt;&lt;/u&gt; , estudios , años)&lt;/p&gt;" vertex="1">
+          <mxGeometry height="50" width="515" x="195" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="ON628qAyOaXds6k2XCL8-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=26;" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;IMPARTE ( &lt;b&gt;&lt;u&gt;cod_curso , num_edic &lt;/u&gt;&lt;/b&gt;,&lt;b style=&quot;&quot;&gt;&lt;u&gt; cod_emp&lt;/u&gt;&lt;/b&gt; , Teoria_Practica)&lt;/p&gt;" vertex="1">
+          <mxGeometry height="50" width="780" x="195" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="ON628qAyOaXds6k2XCL8-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=26;" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;RECIBE ( &lt;u&gt;&lt;b&gt;&lt;i&gt;cod_cur , num_edic , cod_emp&lt;/i&gt;&lt;/b&gt;&lt;/u&gt; )&lt;/p&gt;" vertex="1">
+          <mxGeometry height="50" width="520" x="205" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="ON628qAyOaXds6k2XCL8-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=26;" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;CONOCE ( &lt;u&gt;&lt;b&gt;cod_emp , cod_mat&lt;/b&gt;&lt;/u&gt; , exp , carac )&lt;/p&gt;" vertex="1">
+          <mxGeometry height="50" width="570" x="725" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="qfHjDkgLY906ApOr4_O4-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=26;" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;NECESITA (&lt;i&gt; &lt;b&gt;&lt;u&gt;cod_rec ,  cod_cur&lt;/u&gt;&lt;/b&gt;&lt;/i&gt; , uds , nec )&lt;/p&gt;" vertex="1">
+          <mxGeometry height="50" width="530" x="195" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="qfHjDkgLY906ApOr4_O4-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=26;" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;CURSO ( &lt;u&gt;&lt;b&gt;cod_cur&lt;/b&gt;&lt;/u&gt; , nom , des , hor , &lt;i&gt;cod_mat &lt;/i&gt;)&lt;/p&gt;" vertex="1">
+          <mxGeometry height="50" width="565" x="195" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="qfHjDkgLY906ApOr4_O4-4" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;labelBackgroundColor=none;fontColor=default;spacing=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="727" y="245" />
+              <mxPoint x="984" y="239" />
+            </Array>
+            <mxPoint x="700" y="263" as="sourcePoint" />
+            <mxPoint x="996" y="264" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qfHjDkgLY906ApOr4_O4-5" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;labelBackgroundColor=none;fontColor=default;spacing=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="467" y="533" as="sourcePoint" />
+            <mxPoint x="460" y="585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qfHjDkgLY906ApOr4_O4-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=26;" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;EDICION ( &lt;b&gt;&lt;u&gt;cod_cur , num_edic&lt;/u&gt;&lt;/b&gt; , lugar, fecha , horario)&lt;/p&gt;" vertex="1">
+          <mxGeometry height="50" width="665" x="205" y="571" as="geometry" />
+        </mxCell>
+        <mxCell id="qfHjDkgLY906ApOr4_O4-7" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;labelBackgroundColor=none;fontColor=default;spacing=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="678" y="724" />
+              <mxPoint x="916" y="728" />
+            </Array>
+            <mxPoint x="655" y="706" as="sourcePoint" />
+            <mxPoint x="936" y="703" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qfHjDkgLY906ApOr4_O4-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;labelBackgroundColor=none;fontColor=default;spacing=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="491" y="670" as="sourcePoint" />
+            <mxPoint x="500" y="615" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qfHjDkgLY906ApOr4_O4-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=26;" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;CURSÓ ( &lt;u&gt;&lt;b&gt;cod_est , cod_emp&lt;/b&gt;&lt;/u&gt; , fec_fin)&lt;/p&gt;" vertex="1">
+          <mxGeometry height="50" width="470" x="550" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="qfHjDkgLY906ApOr4_O4-10" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;labelBackgroundColor=none;fontColor=default;spacing=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="945" y="744" />
+            </Array>
+            <mxPoint x="900" y="763" as="sourcePoint" />
+            <mxPoint x="961" y="704" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qfHjDkgLY906ApOr4_O4-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=26;" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;ESTUDIO ( &lt;b style=&quot;text-decoration-line: underline;&quot;&gt;cod_est&lt;/b&gt; )&lt;/p&gt;" vertex="1">
+          <mxGeometry height="50" width="300" x="205" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="qfHjDkgLY906ApOr4_O4-12" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;labelBackgroundColor=none;fontColor=default;spacing=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="692" y="830" />
+              <mxPoint x="439" y="831" />
+            </Array>
+            <mxPoint x="720" y="795" as="sourcePoint" />
+            <mxPoint x="408" y="791" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qfHjDkgLY906ApOr4_O4-13" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;labelBackgroundColor=none;fontColor=default;spacing=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="1035" y="290" as="sourcePoint" />
+            <mxPoint x="1038" y="411" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qfHjDkgLY906ApOr4_O4-14" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;labelBackgroundColor=none;fontColor=default;spacing=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="878" y="398" />
+              <mxPoint x="483" y="394" />
+            </Array>
+            <mxPoint x="893" y="418" as="sourcePoint" />
+            <mxPoint x="450" y="419" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qfHjDkgLY906ApOr4_O4-15" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;labelBackgroundColor=none;fontColor=default;spacing=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="634" />
+              <mxPoint x="743" y="650" />
+            </Array>
+            <mxPoint x="558" y="610" as="sourcePoint" />
+            <mxPoint x="760" y="675" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qfHjDkgLY906ApOr4_O4-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;labelBackgroundColor=none;fontColor=default;spacing=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="504" y="219" />
+              <mxPoint x="394" y="242" />
+            </Array>
+            <mxPoint x="512" y="203" as="sourcePoint" />
+            <mxPoint x="378" y="266" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gmKILth_VKr-U2XI_WxH-1" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=20;fontColor=#6999FF;labelBackgroundColor=none;" value="BC:MC" vertex="1">
+          <mxGeometry height="20" width="70" x="336" y="131" as="geometry" />
+        </mxCell>
+        <mxCell id="gmKILth_VKr-U2XI_WxH-2" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=20;fontColor=#6999FF;labelBackgroundColor=none;" value="BC:MC" vertex="1">
+          <mxGeometry height="70" width="90" x="369" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="gmKILth_VKr-U2XI_WxH-3" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=20;fontColor=#6999FF;labelBackgroundColor=none;" value="BC:MC" vertex="1">
+          <mxGeometry height="70" width="90" x="640" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="gmKILth_VKr-U2XI_WxH-4" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=20;fontColor=#6999FF;labelBackgroundColor=none;" value="BC:MC" vertex="1">
+          <mxGeometry height="70" width="90" x="818" y="196" as="geometry" />
+        </mxCell>
+        <mxCell id="gmKILth_VKr-U2XI_WxH-5" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=20;fontColor=#6999FF;labelBackgroundColor=none;" value="BC:MC" vertex="1">
+          <mxGeometry height="70" width="90" x="965" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="gmKILth_VKr-U2XI_WxH-8" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=20;fontColor=#6999FF;labelBackgroundColor=none;" value="BC:MC" vertex="1">
+          <mxGeometry height="70" width="90" x="670" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="gmKILth_VKr-U2XI_WxH-10" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=20;fontColor=#6999FF;labelBackgroundColor=none;" value="BC:MC" vertex="1">
+          <mxGeometry height="26" width="68" x="518" y="805" as="geometry" />
+        </mxCell>
+        <mxCell id="gmKILth_VKr-U2XI_WxH-12" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=20;fontColor=#6999FF;labelBackgroundColor=none;" value="BC:MC" vertex="1">
+          <mxGeometry height="70" width="90" x="466" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="gmKILth_VKr-U2XI_WxH-13" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=20;fontColor=#6999FF;labelBackgroundColor=none;" value="BC:MC" vertex="1">
+          <mxGeometry height="27" width="90" x="420" y="639" as="geometry" />
+        </mxCell>
+        <mxCell id="iInM0rdoubD2KnHe1ndi-1" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;labelBackgroundColor=none;fontColor=default;spacing=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="565" />
+              <mxPoint x="190" y="555" />
+              <mxPoint x="190" y="310" />
+              <mxPoint x="320" y="310" />
+            </Array>
+            <mxPoint x="398" y="582" as="sourcePoint" />
+            <mxPoint x="353" y="294" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D6ofilyloSviNd6VHq47-1" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;labelBackgroundColor=none;fontColor=default;spacing=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="409" y="115" as="sourcePoint" />
+            <mxPoint x="403" y="176" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D6ofilyloSviNd6VHq47-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=26;" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;ESTUDIOS ( &lt;b&gt;&lt;u&gt;cod_doc , &lt;/u&gt;&lt;/b&gt;&lt;b style=&quot;text-decoration-line: underline;&quot;&gt;cod_ests&lt;/b&gt; )&lt;/p&gt;" vertex="1">
+          <mxGeometry height="50" width="420" x="240" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="QO1YRl4bx9L8oogINojO-1" parent="1" style="text;whiteSpace=wrap;fontSize=25;labelBackgroundColor=none;fontStyle=0" value="RECURSO&#xa;Atributo                 Dominio óptimo                    Restricións necesarias&#xa;cod_rec                 INT                                       PRIMARY KEY, NOT NULL, UNIQUE&#xa;nomb                     VARCHAR(50)                     NOT NULL&#xa;desc                      VARCHAR(100)                    NOT NULL&#xa;ubic                        VARCHAR(100)                    NOT NULL  &#xa;uds                         INT                                       NOT NULL" vertex="1">
+          <mxGeometry height="270" width="1320" x="150" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="QO1YRl4bx9L8oogINojO-4" parent="1" style="text;whiteSpace=wrap;fontSize=25;labelBackgroundColor=none;fontStyle=0" value="EMPLEADO&#xa;Atributo                 Dominio óptimo                    Restricións necesarias&#xa;cod_emp               INT                                       PRIMARY KEY, NOT NULL, UNIQUE&#xa;dom                      VARCHAR(50)                      NOT NULL&#xa;nom                      VARCHAR(50)                      NOT NULL&#xa;apel                       VARCHAR(50)                      NOT NULL&#xa;dir                          VARCHAR(100)                   NOT NULL&#xa;tipo_e                    VARCHAR(20)                     CHECK ( &quot;TRABAJADOR&quot; , &quot;GERENTE&quot;)" vertex="1">
+          <mxGeometry height="290" width="1320" x="200" y="1872" as="geometry" />
+        </mxCell>
+        <mxCell id="QO1YRl4bx9L8oogINojO-5" parent="1" style="text;whiteSpace=wrap;fontSize=25;labelBackgroundColor=none;fontStyle=0" value="TRABAJADOR&#xa;Atributo                 Dominio óptimo                    Restricións necesarias&#xa;cod_tra                 INT                                        PRIMARY KEY, NOT NULL, UNIQUE&#xa;tipo_e                    VARCHAR(20)                     CHECK ( &quot;VENDEDOR&quot; , &quot;JEFE&quot; )&#xa;cod_ger                 INT                                       FOREIGN KEY -&gt; GERENTE                 &#xa;" vertex="1">
+          <mxGeometry height="230" width="1320" x="200" y="2143" as="geometry" />
+        </mxCell>
+        <mxCell id="QO1YRl4bx9L8oogINojO-6" parent="1" style="text;whiteSpace=wrap;fontSize=25;labelBackgroundColor=none;fontStyle=0" value="JEFE&#xa;Atributo                 Dominio óptimo                    Restricións necesarias&#xa;cod_jef                 INT                                        PRIMARY KEY, NOT NULL, UNIQUE&#xa;cod_ger                 INT                                       FOREIGN KEY -&gt; GERENTE                 &#xa;" vertex="1">
+          <mxGeometry height="160" width="1320" x="200" y="2419" as="geometry" />
+        </mxCell>
+        <mxCell id="QO1YRl4bx9L8oogINojO-7" parent="1" style="text;whiteSpace=wrap;fontSize=25;labelBackgroundColor=none;fontStyle=0" value="GERENTE&#xa;Atributo                 Dominio óptimo                    Restricións necesarias&#xa;cod_ger                 INT                                       PRIMARY KEY, NOT NULL, UNIQUE            &#xa;" vertex="1">
+          <mxGeometry height="160" width="1320" x="200" y="2659" as="geometry" />
+        </mxCell>
+        <mxCell id="QO1YRl4bx9L8oogINojO-8" parent="1" style="text;whiteSpace=wrap;fontSize=25;labelBackgroundColor=none;fontStyle=0" value="VENDE&#xa;Atributo                 Dominio óptimo                    Restricións necesarias&#xa;cod_cli                   INT                                       FOREIGN KEY -&gt; CLIENTE &#xa;cod_art                  INT                                       FOREIGN KEY -&gt; ARTICULO &#xa;cod_ven                  INT                                      FOREIGN KEY -&gt; VENDEDOR&#xa;fecha                     DATE                                    NOT NULL          &#xa;&#xa;" vertex="1">
+          <mxGeometry height="160" width="1320" x="200" y="2900" as="geometry" />
+        </mxCell>
+        <mxCell id="QO1YRl4bx9L8oogINojO-9" parent="1" style="text;whiteSpace=wrap;fontSize=25;labelBackgroundColor=none;fontStyle=0" value="EMPLEADO&#xa;Atributo                 Dominio óptimo                    Restricións necesarias&#xa;cod_emp               INT                                       PRIMARY KEY, NOT NULL, UNIQUE&#xa;nomb                     VARCHAR(50)                     NOT NULL&#xa;apel                       VARCHAR(50)                     NOT NULL  &#xa;dire                        VARCHAR(100)                   NOT NULL                           &#xa;dire                        VARCHAR(100)                   NOT NULL       &#xa;telf                         INT                                       NOT NULL&#xa;horar                      VARCHAR(20)                     NOT NULL&#xa;tipo_empl               VARCHAR(50)                    NOT NULL      &#xa;" vertex="1">
+          <mxGeometry height="200" width="950" x="150" y="1210" as="geometry" />
+        </mxCell>
+        <mxCell id="QO1YRl4bx9L8oogINojO-12" parent="1" style="text;whiteSpace=wrap;fontSize=25;labelBackgroundColor=none;fontStyle=0" value="NECESITA&#xa;Atributo                 Dominio óptimo                    Restricións necesarias&#xa;cod_rec                 INT                                       FOREIGN KEY -&gt; RECURSO&#xa;cod_cur                 INT                                       FOREIGN KEY -&gt; CURSO&#xa;uds                        INT                                       NOT NULL&#xa;nec                        BOOLEAN                            NOT NULL" vertex="1">
+          <mxGeometry height="200" width="950" x="1190" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="QO1YRl4bx9L8oogINojO-13" parent="1" style="text;whiteSpace=wrap;fontSize=25;labelBackgroundColor=none;fontStyle=0" value="CURSO&#xa;Atributo                 Dominio óptimo                    Restricións necesarias&#xa;cod_cur                 INT                                       PRIMARY KEY, NOT NULL, UNIQUE&#xa;nom                       VARCHAR(50)                     NOT NULL&#xa;des                       VARCHAR(50)                      NOT NULL&#xa;nom                       VARCHAR(50)                     NOT NULL&#xa;cod_mat                 INT                                       FOREIGN KEY -&gt; MATERIA" vertex="1">
+          <mxGeometry height="200" width="950" x="1190" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="QO1YRl4bx9L8oogINojO-14" parent="1" style="text;whiteSpace=wrap;fontSize=25;labelBackgroundColor=none;fontStyle=0" value="MATERIA&#xa;Atributo                 Dominio óptimo                    Restricións necesarias&#xa;cod_mat                INT                                       PRIMARY KEY, NOT NULL, UNIQUE" vertex="1">
+          <mxGeometry height="119" width="950" x="1190" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="QO1YRl4bx9L8oogINojO-15" parent="1" style="text;whiteSpace=wrap;fontSize=25;labelBackgroundColor=none;fontStyle=0" value="DOC_CAPAC&#xa;Atributo                 Dominio óptimo                    Restricións necesarias&#xa;cod_emp               INT                                       PRIMARY KEY, NOT NULL, UNIQUE&#xa;estudios                 VARCHAR(50)                     NOT NULL&#xa;años                      INT                                        NOT NULL      &#xa;" vertex="1">
+          <mxGeometry height="200" width="950" x="1210" y="1430" as="geometry" />
+        </mxCell>
+        <mxCell id="QO1YRl4bx9L8oogINojO-16" parent="1" style="text;whiteSpace=wrap;fontSize=25;labelBackgroundColor=none;fontStyle=0" value="CONOCE&#xa;Atributo                 Dominio óptimo                    Restricións necesarias&#xa;cod_emp               INT                                       FOREIGN KEY -&gt; DOC_CAPAC&#xa;cod_emp               INT                                       FOREIGN KEY -&gt; MATERIA&#xa;exp                        VARCHAR(50)                     NOT NULL&#xa;carac                     VARCHAR(50)                     NOT NULL      &#xa;" vertex="1">
+          <mxGeometry height="200" width="950" x="150" y="1570" as="geometry" />
+        </mxCell>
+        <mxCell id="QO1YRl4bx9L8oogINojO-17" parent="1" style="text;whiteSpace=wrap;fontSize=25;labelBackgroundColor=none;fontStyle=0" value="IMPARTE&#xa;Atributo                 Dominio óptimo                    Restricións necesarias&#xa;cod_emp               INT                                       FOREIGN KEY -&gt; DOC_CAPAC&#xa;cod_emp               INT                                       FOREIGN KEY -&gt; MATERIA&#xa;exp                        VARCHAR(50)                     NOT NULL&#xa;carac                     VARCHAR(50)                     NOT NULL      &#xa;" vertex="1">
+          <mxGeometry height="200" width="950" x="1140" y="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

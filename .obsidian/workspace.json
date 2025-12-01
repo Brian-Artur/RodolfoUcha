@@ -11,12 +11,15 @@
             "id": "ebc89ee0405b53c8",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "programacion/UD3/Practica 1a Ev.pdf"
+                "file": "entornos_desarrollo/01-12-25.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "Practica 1a Ev"
+              "icon": "lucide-file",
+              "title": "01-12-25"
             }
           }
         ]
@@ -128,19 +131,19 @@
       "obsidian-excalidraw-plugin:Nuevo Bosquejo": false
     }
   },
-  "active": "ebc89ee0405b53c8",
+  "active": "9b7f378fda18ad9f",
   "lastOpenFiles": [
-    "programacion/UD3/Estructuras de almacenamiento. Arrays.pdf",
-    "programacion/UD3/Practica 1a Ev.pdf",
-    "programacion/brianaf_prac1eva/src/main/java/utils/UtilObtencionDatos.java",
-    "programacion/brianaf_prac1eva/src/main/java/utils/UtilCifrado.java",
-    "programacion/brianaf_prac1eva/src/main/java/utils/UtilCambioNumeracion.java",
-    "programacion/brianaf_prac1eva/src/main/java/utilidades/UtilObtencionDatos.java",
-    "programacion/brianaf_prac1eva/src/main/java/utilidades/UtilCifrado.java",
-    "programacion/brianaf_prac1eva/src/main/java/utilidades/UtilCambioNumeracion.java",
-    "programacion/brianaf_prac1eva/src/main/java/principal/MenuPrincipal.java",
-    "programacion/brianaf_prac1eva/src/main/java/numeracion/CambioNumeracion.java",
-    "programacion/brianaf_prac1eva/src/main/java/number/CambioNumeracion.java",
+    "entornos_desarrollo/NetBeansProjects/inventario/target/test-classes",
+    "entornos_desarrollo/NetBeansProjects/inventario/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst",
+    "entornos_desarrollo/NetBeansProjects/inventario/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst",
+    "entornos_desarrollo/NetBeansProjects/inventario/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile",
+    "entornos_desarrollo/NetBeansProjects/inventario/target/maven-status/maven-compiler-plugin/testCompile",
+    "entornos_desarrollo/NetBeansProjects/inventario/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst",
+    "entornos_desarrollo/NetBeansProjects/inventario/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst",
+    "entornos_desarrollo/NetBeansProjects/inventario/target/maven-status/maven-compiler-plugin/compile/default-compile",
+    "entornos_desarrollo/NetBeansProjects/inventario/target/maven-status/maven-compiler-plugin/compile",
+    "entornos_desarrollo/NetBeansProjects/inventario/target/maven-status/maven-compiler-plugin",
+    "entornos_desarrollo/NetBeansProjects/inventario/target/maven-status",
     "ipe/26.11.md",
     "ipe/25-11.md",
     "ipe/UD1/Drawing 2025-10-08 18.22.07.excalidraw.md",
@@ -166,7 +169,7 @@
     "ipe/UD1/01_prevencion.md",
     "entornos_desarrollo/UD1/01_instalación.md",
     "base_datos/01_bbdd_sistemas_almacenamiento/02_bbdd.md",
-    "entornos_desarrollo/25-09-15.md",
+    "entornos_desarrollo/01-12-25.md",
     "base_datos/01_bbdd_sistemas_almacenamiento/03_sxbd.md",
     "base_datos/01_bbdd_sistemas_almacenamiento/01_sistemas_almacenamiento.md",
     "lenguaje_marcas/01_intro_lenguaje_marcas.md",
