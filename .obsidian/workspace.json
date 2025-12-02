@@ -8,18 +8,39 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ebc89ee0405b53c8",
+            "id": "29c6f69c09f1e2a4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "entornos_desarrollo/01-12-25.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "ingles/brianaf_writting_25-12-02.pdf"
               },
-              "icon": "lucide-file",
-              "title": "01-12-25"
+              "icon": "lucide-file-text",
+              "title": "brianaf_writting_25-12-02"
+            }
+          },
+          {
+            "id": "dac7fb515cfebfa2",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "sistemas_iformaticos/Drawing 2025-12-02 21.19.51.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-12-02 21.19.51.excalidraw"
+            }
+          },
+          {
+            "id": "5f5569d1391e64c6",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "sistemas_iformaticos/Drawing 2025-12-02 20.45.12.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-12-02 20.45.12.excalidraw"
             }
           }
         ]
@@ -131,53 +152,52 @@
       "obsidian-excalidraw-plugin:Nuevo Bosquejo": false
     }
   },
-  "active": "9b7f378fda18ad9f",
+  "active": "29c6f69c09f1e2a4",
   "lastOpenFiles": [
-    "entornos_desarrollo/NetBeansProjects/inventario/target/test-classes",
-    "entornos_desarrollo/NetBeansProjects/inventario/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst",
-    "entornos_desarrollo/NetBeansProjects/inventario/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst",
-    "entornos_desarrollo/NetBeansProjects/inventario/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile",
-    "entornos_desarrollo/NetBeansProjects/inventario/target/maven-status/maven-compiler-plugin/testCompile",
-    "entornos_desarrollo/NetBeansProjects/inventario/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst",
-    "entornos_desarrollo/NetBeansProjects/inventario/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst",
-    "entornos_desarrollo/NetBeansProjects/inventario/target/maven-status/maven-compiler-plugin/compile/default-compile",
-    "entornos_desarrollo/NetBeansProjects/inventario/target/maven-status/maven-compiler-plugin/compile",
-    "entornos_desarrollo/NetBeansProjects/inventario/target/maven-status/maven-compiler-plugin",
-    "entornos_desarrollo/NetBeansProjects/inventario/target/maven-status",
-    "ipe/26.11.md",
-    "ipe/25-11.md",
+    "ingles/Computing  Information Technology -- Oliver Taylor -- WORKBOOK -- Burlington Books OCR.pdf",
+    "ingles/Computing  Information Technology -- Oliver Taylor -- STUDENT'S BOOK -- Burlington Books OCR.pdf",
+    "ingles/brianaf_writting_25-12-02.pdf",
+    "ingles/25-12-02.md",
+    "sistemas_iformaticos/25-12-02.md",
+    "sistemas_iformaticos/assets/2025-12-02_22-19-12.png",
+    "sistemas_iformaticos/assets/2025-12-02_22-16-52.png",
+    "sistemas_iformaticos/assets/2025-12-02_22-16-29.png",
+    "sistemas_iformaticos/assets/2025-12-02_22-16-16.png",
+    "sistemas_iformaticos/Drawing 2025-12-02 21.19.51.excalidraw.md",
+    "Pasted Image 20251202221452_918.png",
+    "sistemas_iformaticos/assets/2025-12-02_22-07-08.png",
+    "sistemas_iformaticos/assets/2025-12-02_21-57-58.png",
+    "sistemas_iformaticos/assets/2025-12-02_21-55-58.png",
+    "sistemas_iformaticos/assets/2025-12-02_21-50-35.png",
+    "sistemas_iformaticos/assets/2025-12-02_21-37-39.png",
+    "sistemas_iformaticos/Drawing 2025-12-02 20.45.12.excalidraw.md",
+    "sistemas_iformaticos/Repaso_Examen_eva1.md",
+    "sistemas_iformaticos/Crear_archivos_brian_artur_faro.pdf",
+    "ingles/lu83725hvkm.tmp",
+    "ingles/Writting_25-12-02.pdf",
+    "ingles/lu83725hvkj.tmp",
+    "sistemas_iformaticos/Writting_25-12-02.pdf",
+    "sistemas_iformaticos/lu83725hvkg.tmp",
+    "ingles/lu83725hvkc.tmp",
+    "ingles/UD1/ud2.md",
+    "ingles/UD1/Dialogos.md",
+    "ingles/UD1/01_vocabulary.md",
+    "ipe/12-02.md",
+    "ipe/Drawing 2025-12-02 16.25.38.excalidraw.md",
+    "ipe/UD2/Sin título.md",
+    "entornos_desarrollo/chuleta.md",
+    "ipe/11-26.md",
+    "ipe/11-25.md",
+    "entornos_desarrollo/01-12-25.md",
     "ipe/UD1/Drawing 2025-10-08 18.22.07.excalidraw.md",
     "sistemas_iformaticos/UD1/01_introduccion.md",
     "ipe/UD1/03_factores_riesgo_prevencion.md",
-    "ipe/UD1/assets/2025-10-08_18-26-32.png",
     "ipe/UD1/04_factores_riesgo_prevencion.md",
-    "lenguaje_marcas/UD2/04_boletin_multimedia_3/img/poster.png",
-    "lenguaje_marcas/UD2/04_boletin_multimedia_3/img/s25.webp",
     "lenguaje_marcas/25-09-15.md",
     "sistemas_iformaticos/UD1/02_virtualizición.md",
     "sistemas_iformaticos/UD1/Drawing 2025-10-07 21.12.20.excalidraw.md",
-    "sistemas_iformaticos/UD1/assets/2025-10-07_22-27-02.png",
-    "sistemas_iformaticos/UD1/assets/2025-10-07_22-24-45.png",
-    "sistemas_iformaticos/UD1/assets/2025-10-07_22-06-53.png",
-    "sistemas_iformaticos/UD1/assets/2025-10-07_22-20-06.png",
-    "Pasted Image 20251007221933_751.png",
-    "sistemas_iformaticos/UD1/assets/2025-10-07_21-56-28.png",
-    "sistemas_iformaticos/UD1/assets/2025-10-07_21-51-45.png",
-    "ingles/UD1/ud2.md",
-    "ingles/UD1/01_vocabulary.md",
     "ipe/UD1/02_medidasprevencio_proteccion.md",
     "ipe/UD1/01_prevencion.md",
-    "entornos_desarrollo/UD1/01_instalación.md",
-    "base_datos/01_bbdd_sistemas_almacenamiento/02_bbdd.md",
-    "entornos_desarrollo/01-12-25.md",
-    "base_datos/01_bbdd_sistemas_almacenamiento/03_sxbd.md",
-    "base_datos/01_bbdd_sistemas_almacenamiento/01_sistemas_almacenamiento.md",
-    "lenguaje_marcas/01_intro_lenguaje_marcas.md",
-    "sistemas_iformaticos/Tareas.md",
-    "sistemas_iformaticos/Drawing 2025-09-14 19.22.08.excalidraw.md",
-    "Bienvenido.md",
-    "03_node/05_intro_testing.md",
-    "03_node/04_node_ts.md",
-    "03_node/03_bases.md"
+    "entornos_desarrollo/UD1/01_instalación.md"
   ]
 }

@@ -4,7 +4,7 @@
   "theme": "moonstone",
   "nativeMenus": false,
   "baseFontSizeAction": false,
-  "baseFontSize": 17,
+  "baseFontSize": 16,
   "monospaceFontFamily": "Fira Code",
   "enabledCssSnippets": [],
   "showViewHeader": true,
