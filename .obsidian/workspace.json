@@ -11,40 +11,18 @@
             "id": "29c6f69c09f1e2a4",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "lenguaje_marcas/Trabajo individual_ Proyecto Web de Ciclocrós.pdf"
+                "file": "ipe/12-03.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "Trabajo individual_ Proyecto Web de Ciclocrós"
-            }
-          },
-          {
-            "id": "dac7fb515cfebfa2",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "sistemas_iformaticos/Drawing 2025-12-02 21.19.51.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-12-02 21.19.51.excalidraw"
-            }
-          },
-          {
-            "id": "5f5569d1391e64c6",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "sistemas_iformaticos/Drawing 2025-12-02 20.45.12.excalidraw.md"
-              },
-              "icon": "lucide-ghost",
-              "title": "excalidraw"
+              "icon": "lucide-file",
+              "title": "12-03"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -153,8 +131,12 @@
       "obsidian-excalidraw-plugin:Nuevo Bosquejo": false
     }
   },
-  "active": "1dc11a140a1c5b79",
+  "active": "29c6f69c09f1e2a4",
   "lastOpenFiles": [
+    "ipe/12-02.md",
+    "sistemas_iformaticos/Drawing 2025-12-02 20.45.12.excalidraw.md",
+    "sistemas_iformaticos/Drawing 2025-12-02 21.19.51.excalidraw.md",
+    "ipe/12-03.md",
     "lenguaje_marcas/Trabajo_2eva/screencapture-validator-w3-org-nu-2025-12-03-17_46_11.pdf",
     "lenguaje_marcas/Trabajo_2eva/screencapture-127-0-0-1-5500-index-html-2025-12-03-17_47_26.pdf",
     "lenguaje_marcas/Trabajo_2eva/screencapture-validator-w3-org-nu-2025-12-03-17_49_36.pdf",
@@ -165,8 +147,6 @@
     "lenguaje_marcas/Trabajo_2eva/screencapture-validator-w3-org-nu-2025-12-03-17_53_19.pdf",
     "lenguaje_marcas/Trabajo_2eva/screencapture-127-0-0-1-5500-contacto-html-2025-12-03-17_53_41.pdf",
     "lenguaje_marcas/Trabajo individual_ Proyecto Web de Ciclocrós.pdf",
-    "lenguaje_marcas/Trabajo_2eva/Trabajo individual_ Proyecto Web de Ciclocrós.pdf",
-    "sistemas_iformaticos/Drawing 2025-12-02 21.19.51.excalidraw.md",
     "sistemas_iformaticos/25-12-02.md",
     "ingles/25-12-02.md",
     "sistemas_iformaticos/assets/2025-12-02_22-19-12.png",
@@ -179,12 +159,10 @@
     "sistemas_iformaticos/assets/2025-12-02_21-55-58.png",
     "sistemas_iformaticos/assets/2025-12-02_21-50-35.png",
     "sistemas_iformaticos/assets/2025-12-02_21-37-39.png",
-    "sistemas_iformaticos/Drawing 2025-12-02 20.45.12.excalidraw.md",
     "sistemas_iformaticos/Repaso_Examen_eva1.md",
     "ingles/UD1/ud2.md",
     "ingles/UD1/Dialogos.md",
     "ingles/UD1/01_vocabulary.md",
-    "ipe/12-02.md",
     "ipe/Drawing 2025-12-02 16.25.38.excalidraw.md",
     "ipe/UD2/Sin título.md",
     "entornos_desarrollo/chuleta.md",
