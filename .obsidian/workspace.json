@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ipe/12-03.md",
+                "file": "sistemas_iformaticos/Clase 28-11.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "12-03"
+              "title": "Clase 28-11"
             }
           }
         ]
@@ -133,10 +133,23 @@
   },
   "active": "29c6f69c09f1e2a4",
   "lastOpenFiles": [
+    "sistemas_iformaticos/assets/Pasted image 20251128191252.png",
+    "sistemas_iformaticos/assets/Pasted image 20251128191005.png",
+    "sistemas_iformaticos/assets/Pasted image 20251128190755.png",
+    "sistemas_iformaticos/assets/Pasted image 20251128190634.png",
+    "sistemas_iformaticos/assets/Pasted image 20251128190619.png",
+    "sistemas_iformaticos/assets/Pasted image 20251128190020.png",
+    "sistemas_iformaticos/assets/Pasted image 20251128185914.png",
+    "sistemas_iformaticos/assets/Pasted image 20251128185730.png",
+    "sistemas_iformaticos/assets/Pasted image 20251128185205.png",
+    "sistemas_iformaticos/assets/Pasted image 20251128184807.png",
+    "sistemas_iformaticos/assets/Pasted image 20251128184345.png",
+    "ipe/12-03.md",
+    "sistemas_iformaticos/Clase 28-11.md",
+    "sistemas_iformaticos/Clase 28-11.pdf",
     "ipe/12-02.md",
     "sistemas_iformaticos/Drawing 2025-12-02 20.45.12.excalidraw.md",
     "sistemas_iformaticos/Drawing 2025-12-02 21.19.51.excalidraw.md",
-    "ipe/12-03.md",
     "lenguaje_marcas/Trabajo_2eva/screencapture-validator-w3-org-nu-2025-12-03-17_46_11.pdf",
     "lenguaje_marcas/Trabajo_2eva/screencapture-127-0-0-1-5500-index-html-2025-12-03-17_47_26.pdf",
     "lenguaje_marcas/Trabajo_2eva/screencapture-validator-w3-org-nu-2025-12-03-17_49_36.pdf",
@@ -146,19 +159,8 @@
     "lenguaje_marcas/Trabajo_2eva/screencapture-validator-w3-org-nu-2025-12-03-17_52_05.pdf",
     "lenguaje_marcas/Trabajo_2eva/screencapture-validator-w3-org-nu-2025-12-03-17_53_19.pdf",
     "lenguaje_marcas/Trabajo_2eva/screencapture-127-0-0-1-5500-contacto-html-2025-12-03-17_53_41.pdf",
-    "lenguaje_marcas/Trabajo individual_ Proyecto Web de Ciclocrós.pdf",
     "sistemas_iformaticos/25-12-02.md",
     "ingles/25-12-02.md",
-    "sistemas_iformaticos/assets/2025-12-02_22-19-12.png",
-    "sistemas_iformaticos/assets/2025-12-02_22-16-52.png",
-    "sistemas_iformaticos/assets/2025-12-02_22-16-29.png",
-    "sistemas_iformaticos/assets/2025-12-02_22-16-16.png",
-    "Pasted Image 20251202221452_918.png",
-    "sistemas_iformaticos/assets/2025-12-02_22-07-08.png",
-    "sistemas_iformaticos/assets/2025-12-02_21-57-58.png",
-    "sistemas_iformaticos/assets/2025-12-02_21-55-58.png",
-    "sistemas_iformaticos/assets/2025-12-02_21-50-35.png",
-    "sistemas_iformaticos/assets/2025-12-02_21-37-39.png",
     "sistemas_iformaticos/Repaso_Examen_eva1.md",
     "ingles/UD1/ud2.md",
     "ingles/UD1/Dialogos.md",
@@ -176,8 +178,6 @@
     "lenguaje_marcas/25-09-15.md",
     "sistemas_iformaticos/UD1/02_virtualizición.md",
     "sistemas_iformaticos/UD1/Drawing 2025-10-07 21.12.20.excalidraw.md",
-    "ipe/UD1/02_medidasprevencio_proteccion.md",
-    "ipe/UD1/01_prevencion.md",
-    "entornos_desarrollo/UD1/01_instalación.md"
+    "ipe/UD1/02_medidasprevencio_proteccion.md"
   ]
 }
