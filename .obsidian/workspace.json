@@ -67,7 +67,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de archivos"
             }
           },
           {
@@ -145,22 +145,29 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false,
+      "obsidian-excalidraw-plugin:Nuevo Bosquejo": false
     }
   },
-  "active": "dac7fb515cfebfa2",
+  "active": "1dc11a140a1c5b79",
   "lastOpenFiles": [
-    "sistemas_iformaticos/Drawing 2025-12-02 21.19.51.excalidraw.md",
+    "lenguaje_marcas/Trabajo_2eva/screencapture-validator-w3-org-nu-2025-12-03-17_46_11.pdf",
+    "lenguaje_marcas/Trabajo_2eva/screencapture-127-0-0-1-5500-index-html-2025-12-03-17_47_26.pdf",
+    "lenguaje_marcas/Trabajo_2eva/screencapture-validator-w3-org-nu-2025-12-03-17_49_36.pdf",
+    "lenguaje_marcas/Trabajo_2eva/screencapture-127-0-0-1-5500-competiciones-html-2025-12-03-17_49_25.pdf",
+    "lenguaje_marcas/Trabajo_2eva/screencapture-validator-w3-org-nu-2025-12-03-17_51_05.pdf",
+    "lenguaje_marcas/Trabajo_2eva/screencapture-127-0-0-1-5500-ciclistas-html-2025-12-03-17_51_31.pdf",
+    "lenguaje_marcas/Trabajo_2eva/screencapture-validator-w3-org-nu-2025-12-03-17_52_05.pdf",
+    "lenguaje_marcas/Trabajo_2eva/screencapture-validator-w3-org-nu-2025-12-03-17_53_19.pdf",
+    "lenguaje_marcas/Trabajo_2eva/screencapture-127-0-0-1-5500-contacto-html-2025-12-03-17_53_41.pdf",
     "lenguaje_marcas/Trabajo individual_ Proyecto Web de Ciclocrós.pdf",
+    "lenguaje_marcas/Trabajo_2eva/Trabajo individual_ Proyecto Web de Ciclocrós.pdf",
+    "sistemas_iformaticos/Drawing 2025-12-02 21.19.51.excalidraw.md",
     "sistemas_iformaticos/25-12-02.md",
-    "ingles/brianaf_writting_25-12-02.pdf",
-    "ingles/Computing  Information Technology -- Oliver Taylor -- WORKBOOK -- Burlington Books OCR.pdf",
-    "ingles/Computing  Information Technology -- Oliver Taylor -- STUDENT'S BOOK -- Burlington Books OCR.pdf",
     "ingles/25-12-02.md",
     "sistemas_iformaticos/assets/2025-12-02_22-19-12.png",
     "sistemas_iformaticos/assets/2025-12-02_22-16-52.png",
@@ -174,12 +181,6 @@
     "sistemas_iformaticos/assets/2025-12-02_21-37-39.png",
     "sistemas_iformaticos/Drawing 2025-12-02 20.45.12.excalidraw.md",
     "sistemas_iformaticos/Repaso_Examen_eva1.md",
-    "sistemas_iformaticos/Crear_archivos_brian_artur_faro.pdf",
-    "ingles/lu83725hvkm.tmp",
-    "ingles/Writting_25-12-02.pdf",
-    "ingles/lu83725hvkj.tmp",
-    "sistemas_iformaticos/Writting_25-12-02.pdf",
-    "sistemas_iformaticos/lu83725hvkg.tmp",
     "ingles/UD1/ud2.md",
     "ingles/UD1/Dialogos.md",
     "ingles/UD1/01_vocabulary.md",
