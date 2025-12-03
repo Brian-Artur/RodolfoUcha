@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "ingles/brianaf_writting_25-12-02.pdf"
+                "file": "lenguaje_marcas/Trabajo individual_ Proyecto Web de Ciclocrós.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "brianaf_writting_25-12-02"
+              "title": "Trabajo individual_ Proyecto Web de Ciclocrós"
             }
           },
           {
@@ -39,11 +39,12 @@
               "state": {
                 "file": "sistemas_iformaticos/Drawing 2025-12-02 20.45.12.excalidraw.md"
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-12-02 20.45.12.excalidraw"
+              "icon": "lucide-ghost",
+              "title": "excalidraw"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -66,7 +67,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
+              "title": "Files"
             }
           },
           {
@@ -144,26 +145,27 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Crear nueva base": false,
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "obsidian-excalidraw-plugin:Nuevo Bosquejo": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "29c6f69c09f1e2a4",
+  "active": "dac7fb515cfebfa2",
   "lastOpenFiles": [
+    "sistemas_iformaticos/Drawing 2025-12-02 21.19.51.excalidraw.md",
+    "lenguaje_marcas/Trabajo individual_ Proyecto Web de Ciclocrós.pdf",
+    "sistemas_iformaticos/25-12-02.md",
+    "ingles/brianaf_writting_25-12-02.pdf",
     "ingles/Computing  Information Technology -- Oliver Taylor -- WORKBOOK -- Burlington Books OCR.pdf",
     "ingles/Computing  Information Technology -- Oliver Taylor -- STUDENT'S BOOK -- Burlington Books OCR.pdf",
-    "ingles/brianaf_writting_25-12-02.pdf",
     "ingles/25-12-02.md",
-    "sistemas_iformaticos/25-12-02.md",
     "sistemas_iformaticos/assets/2025-12-02_22-19-12.png",
     "sistemas_iformaticos/assets/2025-12-02_22-16-52.png",
     "sistemas_iformaticos/assets/2025-12-02_22-16-29.png",
     "sistemas_iformaticos/assets/2025-12-02_22-16-16.png",
-    "sistemas_iformaticos/Drawing 2025-12-02 21.19.51.excalidraw.md",
     "Pasted Image 20251202221452_918.png",
     "sistemas_iformaticos/assets/2025-12-02_22-07-08.png",
     "sistemas_iformaticos/assets/2025-12-02_21-57-58.png",
@@ -178,7 +180,6 @@
     "ingles/lu83725hvkj.tmp",
     "sistemas_iformaticos/Writting_25-12-02.pdf",
     "sistemas_iformaticos/lu83725hvkg.tmp",
-    "ingles/lu83725hvkc.tmp",
     "ingles/UD1/ud2.md",
     "ingles/UD1/Dialogos.md",
     "ingles/UD1/01_vocabulary.md",
