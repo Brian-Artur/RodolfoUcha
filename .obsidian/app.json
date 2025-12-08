@@ -2,5 +2,14 @@
   "alwaysUpdateLinks": true,
   "showInlineTitle": true,
   "promptDelete": false,
-  "newFileLocation": "current"
+  "newFileLocation": "current",
+  "readableLineLength": true,
+  "livePreview": true,
+  "strictLineBreaks": false,
+  "showLineNumber": true,
+  "foldIndent": false,
+  "foldHeading": true,
+  "tabSize": 4,
+  "focusNewTab": true,
+  "propertiesInDocument": "source"
 }
