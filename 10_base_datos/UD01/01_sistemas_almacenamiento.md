@@ -17,7 +17,7 @@ Os **obxectivos** **desta UD** son os seguintes:
 
 **Neste bloque** de contidos comezaremos polos **ficheiros**.
 
-![[2025-09-15_17-27-52.png|452x1130]]
+![[10_base_datos/UD01/assets/2025-09-15_17-27-52.png|452x1130]]
 
 # Ficheiros
 Un sistema de almacenamento relevante na xestión automatizada de datos foron os ficheiros. 
@@ -40,7 +40,7 @@ Resumindo, podemos enumerar os seguintes **problemas**:
 - ...
 
 # Definicións
-![[2025-09-16_10-47-47.png]]  
+![[10_base_datos/UD01/assets/2025-09-16_10-47-47.png]]  
 - Un **ficheiro/arquivo/file** **é unha estrutura de datos** (conxunto de información relacionada entre si e estruturada en unidades máis pequenas) que **agrupa unha secuencia de 0 ou máis** **tuplas semellantes** denominadas, normalmente **rexistros**  e **que á súa vez** **se poden compoñer** doutras estruturas de datos ás que se adoitan chamar **campos**.
 - **O arquivo é tratado como unha entidade individual** polos usuarios e as aplicacións e pode ser referenciada polo nome. Os arquivos teñen nomes únicos e poden crearse, borrarse, modificarse, ....
 - **Un campo (Field)** é o elemento de datos básico. Un campo individual **contén un valor único**. Esta caracterizado pola súa lonxitude e polo tipo de datos. Dependendo do deseño do arquivo, os campos poden ser de tamaño fixo ou variable.
@@ -77,7 +77,7 @@ Varias clasificacións:
 	    - **comprimidos** ou empaquetados: .zip, .tar....
 	    - **executables** ou compilados: .exe, . Com, .cgi...
 	    - procesadores de **texto**: .doc, .odt
-![[2025-09-16_10-49-43.png]]  
+![[10_base_datos/UD01/assets/2025-09-16_10-49-43.png]]  
 
 - **Segundo o modo de acceder aos datos**: secuencial, directa, indexada. Dado que as características da organización e modo de acceso van determinar o uso dun ou outro tipo de ficheiro,  tratámolos en profundidade no seguiente apartado.
     - **Secuencial**: os datos están dispostos seguindo unha secuencia ordenada, é dicir, uns detrás doutros. Caracterízanse por ter que percorrer todos os datos anteriores para chegar a un en concreto.
@@ -92,7 +92,7 @@ Varias clasificacións:
     - **Temporais**:
         - **Movemento**: tamén chamados ficheiros de transaccións porque se utilizan para actualizar os ficheiros mestres, A vida destes ficheiros adoita ser curta xa que cando se produce a actualización do ficheiro permanente, destrúense, ou se gardan como un histórico.
         - **De Traballo ou de Manobra**: Son ficheiros auxiliares, creados durante a execución dos programas, almacenan información que será manexada por estes programas. Son ficheiros de apoio, que se eliminan cando finaliza o programa e que non son visibles polo usuario. Exemplo: ficheiro auxiliar que se usa para clasificar outros ficheiros.
- ![[2025-09-16_10-51-48.png]]  
+ ![[10_base_datos/UD01/assets/2025-09-16_10-51-48.png]]  
 
 # Organización e modo de acceso  
 ## Organización.
@@ -158,7 +158,7 @@ O formato das i**nstrucións para manexar este tipo de ficheiros** dependerá d
 - **Reescribir** (REWRITE) Grava sobre un rexistro que xa existe no ficheiro. Antes de utilizar esta instrución tense que ler antes o rexistro que se vai a reescribir cunha orde de ler (READ).
 
 Para poder utilizar os datos do ficheiro **o sistema operativo utiliza un indicador, ou punteiro, que se coloca sinalando ao primeiro rexistro de datos do ficheiro, cando se dá a orde de Abrir (OPEN)**, e **vaise desprazando, sempre na mesma dirección, cada vez que se le ou grava un rexistro.** A estrutura do ficheiro complétase cun rexistro de cabeceira que serve de marca de final de ficheiro, ou EOF (EOF - End Of File). Este rexistro grávase , por primeira vez, no momento da creación do ficheiro e vaise desprazando cando se engaden novos rexistros ao final do mesmo.  
-![[2025-09-16_10-53-44.png]]  
+![[10_base_datos/UD01/assets/2025-09-16_10-53-44.png]]  
 
 ### Variantes.
 
@@ -179,15 +179,15 @@ As **características** máis relevantes dun ficheiro indexado, son as seguint
     - **O modo de acceso directo** faise coñecendo o contido do campo clave do rexistro que queremos localizar. Con esa información o sistema operativo pode consultar o índice e coñecer a posición do rexistro dentro do ficheiro.
     - **No modo de acceso secuencial** os rexistros son lidos ordenados polo contido do campo clave, independentemente da orde en que se foron gravando (A orde lóxica non é igual á orde física), debido a que o acceso aos datos faise a través do índice, que para facer máis fácil a procura dos rexistros permanece sempre ordenado polo campo clave.
 - **Soamente pódese gravar nun soporte direccionable**. Ex.: disco magnético. Se isto non fóra así non podería empregar o acceso directo.
-![[2025-09-16_10-57-02.png]] 
+![[10_base_datos/UD01/assets/2025-09-16_10-57-02.png]] 
 ## Estructura dos ficheiros con organización secuencial-indexada.
 
 Un arquivo con organización secuencial indexada está formado por:
 - **Área de datos, primaria ou secuencial:**  É a área na que se escriben os rexistros cando o arquivo é creado. Nesta área **os rexistros atópanse agrupados por segmentos.**
 	Os rexistros deste tipo de ficheiros, grávanse nun soporte direccionable (permite o acceso directo), en orde ascendente dacordo cos valores da  súa clave, en páxinas ou bloques de lonxitude fixa, chamados segmentos.
-	![[2025-09-16_10-58-28.png]]  
+	![[10_base_datos/UD01/assets/2025-09-16_10-58-28.png]]  
 - **Área de índices:** é creada polo sistema ao mesmo tempo que se van almacenando os datos. Contén unha táboa que **asocia as claves coas direccións dos rexistros na área de datos**. **Cada entrada da área de índices** está formada polo valor máis alto da clave de cada grupo de rexistros e un punteiro coa dirección do primeiro rexistro do grupo.
-	![[2025-09-16_10-59-34.png]]  
+	![[10_base_datos/UD01/assets/2025-09-16_10-59-34.png]]  
 - **Área de excedentes ou de overflow:** onde se gravan os rexistros que non teñen sitio na área de datos. Os novos rexistros insérense e quedan enlazados entre si mediante punteiros conservando a orde lóxica que marca a clave ou índice principal.
 
 **Do tratamento dos índices e punteiros encárgase o sistema operativo** polo que non vai crear problemas ao usuario cando manexa este tipo de ficheiros. O usuario sabe o que sucede cando solicita unha consulta dun rexistro, pero non sabe como se realiza internamente esa consulta.
@@ -214,7 +214,7 @@ A organización directa está baseada na **independencia entre a orde en que se
 Nesta organización **o espazo total dispoñible para o ficheiro divídese en celas destinadas cada unha delas a conter un rexistro e só un**. As celas están numeradas correlativamente e pódese acceder ao contido dun rexistro, de forma directa, se coñecemos a dirección relativa da cela na que está gravado.
 
 Esta organización **só é posible en soportes direccionables**, pois o acceso aos rexistros faise sen necesidade de ler os anteriores. **É a organización que ten un menor tempo de acceso a un rexistro**, en acceso directo. Úsanse cando o acceso aos datos dun rexistro faise sempre empregando a mesma clave e a velocidade de acceso a un rexistro é o que máis nos importa.
-![[2025-09-16_11-10-24.png]]  
+![[10_base_datos/UD01/assets/2025-09-16_11-10-24.png]]  
 ### Técnicas de direccionamento.
 
 Como queda devandito para poder localizar un rexistro é necesario coñecer o valor da clave. _**Ás técnicas utilizadas para converter o valor da clave dun rexistro C, na dirección relativa da cela do ficheiro en que vai estar gravado D chámaselle técnicas de direccionamiento.**_
@@ -242,10 +242,10 @@ O caso óptimo de aplicación desta organización dáse **cando as claves no fi
 #### Direccionamiento por asociación.
 
 **Os valores da clave almacénanse nunha táboa en memoria na que cada elemento asocia cada valor da clave coa dirección relativa na que está almacenado o rexistro**. Posto que a táboa debe prever a inclusión de todas as direccións posibles do arquivo, o seu principal inconveniente resulta determinar o seu tamaño e mantela ordenada polos valores da clave.
-![[2025-09-16_11-11-09.png]]
+![[10_base_datos/UD01/assets/2025-09-16_11-11-09.png]]
 #### Direccionamiento aleatorio (Hashing).
 Neste caso **hai que buscar unha función, se é posible biunívoca, que relacione os posibles valores da clave co conxunto de números correlativos de cela**. Esta función consistirá en realizar unha serie de cálculos matemáticos co valor da clave ata obter un número entre 1 e nº, sendo nº o número de celas que ten o ficheiro.
-![[2025-09-16_11-12-39.png]]
+![[10_base_datos/UD01/assets/2025-09-16_11-12-39.png]]
 
 O principal inconveniente que presenta este tipo de direccionamiento é o que **se poden producir sinónimos** xa que o número que se obtén ao aplicar os cálculos é un número aleatorio e **poida que dúas claves diferentes dean como resultado o mesmo número**, e iso obríganos a ter previsto un método para o tratamento dos sinónimos. **Nos dous tipos anteriores nunca se producen sinónimos.**
 

@@ -1,14 +1,14 @@
 {
   "cssTheme": "AnuPpuccin",
-  "accentColor": "",
+  "accentColor": "#5c9ef5",
   "theme": "moonstone",
   "nativeMenus": false,
   "baseFontSizeAction": false,
   "baseFontSize": 16,
-  "monospaceFontFamily": "Fira Code",
+  "monospaceFontFamily": "JetBrains Mono,Fira Code",
   "enabledCssSnippets": [],
   "showViewHeader": true,
   "showRibbon": false,
-  "textFontFamily": "Besley",
-  "interfaceFontFamily": "Inter"
+  "textFontFamily": "JetBrains Mono,Open Sans,Besley",
+  "interfaceFontFamily": "JetBrains Mono,Inter"
 }

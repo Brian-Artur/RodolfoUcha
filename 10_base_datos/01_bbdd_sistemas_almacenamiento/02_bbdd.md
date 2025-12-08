@@ -9,9 +9,9 @@ Hai **cambio radical no enfoque do sistema de información**:
 
 Estes **sistemas orientados cara aos datos (BBDD)** **van substituíndo, de forma progresiva, aos sistemas orientados cara ao proceso (por exemplo, ficheiros)**, que pola súa pouca fiabilidade, falta de adecuación á realidade pola baixa achega aos novos sistemas de xestión, e mal asegurada confidencialidade foron perdendo de forma progresiva a confianza dos usuarios. 
 
-![[2025-09-16_11-32-40.png|Sistemas orientados a proceso]]
+![[10_base_datos/01_bbdd_sistemas_almacenamiento/assets/2025-09-16_11-32-40.png|Sistemas orientados a proceso]]
 
-![[2025-09-16_11-33-25.png|Sistemas orientado a objetos]]
+![[10_base_datos/01_bbdd_sistemas_almacenamiento/assets/2025-09-16_11-33-25.png|Sistemas orientado a objetos]]
 
 # Conceptos.
 
@@ -33,7 +33,7 @@ _“**Colección ou depósito de datos integrados**, **con redundancia controla
 ### Sistema de xestión de BD.
 
 É o software que **permite aos usuarios procesar, describir, administrar e recuperar os datos almacenados nunha base de datos**. Neses sistemas proporciónase un conxunto coordinado de programas, procedementos e linguaxes que permiten aos usuarios realizar as súas tarefas habituais cos datos, garantindo ademais a seguridade dos mesmos. Co SGBD podemos:
-![[2025-09-16_11-34-51.png]]
+![[10_base_datos/01_bbdd_sistemas_almacenamiento/assets/2025-09-16_11-34-51.png]]
 
 - **Definir unha BD**: é especificar os tipos de datos, estruturas e restricións para os datos que se almacenarán.
 - **Construír unha BD**: é o proceso de almacenar os datos sobre algún medio de almacenamento.
@@ -82,9 +82,9 @@ Con respecto aos ficheiros as BBDD presentan as seguintes vantaxes e incovenient
 # Tipos de BBDD.
 
 Existen varias clasificacións posibles, como podedes ver nas imaxes. Aquí estudiaremos as clasificacións máis importantes con respecto a organización e deseño das bases de datos, que son a clasificación pola variabilidade dos datos, polo seu modelo e segundo o acceso ou almacenamento.
-![[2025-09-16_11-41-07.png]]
+![[10_base_datos/01_bbdd_sistemas_almacenamiento/assets/2025-09-16_11-41-07.png]]
 
-![[2025-09-16_11-41-19.png]]  
+![[10_base_datos/01_bbdd_sistemas_almacenamiento/assets/2025-09-16_11-41-19.png]]  
 ## Segundo a variabilidade.
 
 Segundo a variabilidade dos datos:
@@ -99,7 +99,7 @@ Según como se almacenan os datos:
 - **Bases de datos centralizadas**: manteñen todos os datos nunha única computadora, localización e para acceder á información débese ingresar á computadora principal do sistema, coñecida como “servidor”
 - **Bases de datos distribuídas**:  neste caso **funciona como unha única base de datos lóxica** que está **instalada nunha serie de computadoras (nodos) situadas en diferentes lugares xeográficos** e que non están conectadas a unha única unidade de procesamento, pero están **totalmente conectadas entre si** a través dunha rede de comunicacións. **Os datos da BD están ubicados nos distintos nodos**.
 - **Bases de datos decentralizadas**: tamén **formada por unha serie de computadoras e servidores que se atopan en distintos lugares xeográficos**, pero **funcionan como un grupo de bases de datos independentes** sen conexións lóxicas entre elas e que **non están totalmente interconectadas necesariamente.** Un bo exemplo deste tipo de base de datos é Informix, o servizo de almacenamento na nube de IBM que almacena datos nunha variedade de servidores, para ter apoiada a súa información ante calquera incidente.
-![[2025-09-16_11-42-14.png]]  
+![[10_base_datos/01_bbdd_sistemas_almacenamiento/assets/2025-09-16_11-42-14.png]]  
 ## Segundo o modelo de datos.
 
 ### Modelo de datos.
@@ -119,7 +119,7 @@ Por lo general, un modelo de datos **presenta dous sublenguajes**: **un Lengua
 O **deseño dunha BD faise en varias etapas**, que podemos ver na imaxe. Podemos observar tamén que **empregaremos un modelo de datos para cada unha das etapas** do deseño. 
 
 **Segundo o modelo lóxico utilizado tamén se fai unha clasificación das BD** que vemos nas páxinas posteriores deste manual, pero **primeiro é necesario coñecer algúns dos modelos de datos máis utilizados** para cada fase do proceso de deseño da BD.
-![[2025-09-16_11-43-28.png]]
+![[10_base_datos/01_bbdd_sistemas_almacenamiento/assets/2025-09-16_11-43-28.png]]
 
 ### Clasificación dos modelos de datos.
 
@@ -139,10 +139,10 @@ Unha forma de clasificar os modelos de datos é facelo **dacordo ao nivel de ab
 - **Modelo físico de datos:** permiten especificar os datos a nivel físico. Temos:
     - Modelo unificador
     - Memoria de elementos
-![[2025-09-16_11-43-46.png]]  
+![[10_base_datos/01_bbdd_sistemas_almacenamiento/assets/2025-09-16_11-43-46.png]]  
 
 # BBDD jerárquicas
-![[2025-09-16_11-50-50.png]]
+![[10_base_datos/01_bbdd_sistemas_almacenamiento/assets/2025-09-16_11-50-50.png]]
 
 _Estructura dunha árbore xerárquica._
 
@@ -151,7 +151,7 @@ Un DBMS xerárquico utiliza xerarquías ou **árbores** para a **representaci
 **Cada nodo** da árbore representa **un tipo de rexistro conceptual, é dicir, unha entidade**. Á súa vez, **cada rexistro ou segmento** **está constituído por un número de campos** que describen as propiedades ou atributos das entidades.
 
 **As relacións** entre entidades están representadas polas **ramas**.
-![[2025-09-16_11-52-10.png]]
+![[10_base_datos/01_bbdd_sistemas_almacenamiento/assets/2025-09-16_11-52-10.png]]
 ### Características do modelo xerárquico.
 
 - Os **rexistros (segmentos)** dun arquivo xerárquico están dispostos en forma de árbore e non poden existir ciclos.
@@ -160,13 +160,13 @@ Un DBMS xerárquico utiliza xerarquías ou **árbores** para a **representaci
 - Cando **se elimina un rexistro pai débense eliminar todos os rexistros fillos** (integridade dos datos).
 - Un **nodo pai pode ter tantos nodos fillo como sexa necesario, un nodo fillo só pode ter un pai.** _A excepción do nodo raíz, todos os nodos deben ter un pai._
 - **A recuperación dos datos** nunha base de datos xerárquica supón **navegar entre os** **rexistros**, movéndose cara arriba, cara abaixo ou cara aos lados. Dise que é un sistema navegacional.
-![[2025-09-16_11-52-38.png]]
+![[10_base_datos/01_bbdd_sistemas_almacenamiento/assets/2025-09-16_11-52-38.png]]
 ### Vantaxes das bases de datos jerarquicas.
 
 - **Estrutura simple**. É fácil de entender, aseméllase á estrutura organizativa dunha empresa.
 - É moi **adecuada para representar problemas** nos que existan **relacións do tipo pai-fillo**.
 - **Bo rendemento.** As relacións entre rexistros impleméntanse coa utilización de punteiros, realizándose a navegación entre os rexistros dunha forma rápida.
-![[2025-09-16_11-53-02.png]]
+![[10_base_datos/01_bbdd_sistemas_almacenamiento/assets/2025-09-16_11-53-02.png]]
 ### Inconvenientes do modelo xerárquico.
 
 - **Non** permite **máis dunha relación entre dous segmentos**
@@ -179,11 +179,11 @@ Un DBMS xerárquico utiliza xerarquías ou **árbores** para a **representaci
 # BBDD en rede
 
 Usa unha **estrutura non lineal** na que **cada rexistro fillo pode ter máis dun nodo pai (representación en forma de grafo)**. 
-![[2025-09-16_11-49-28.png]]
+![[10_base_datos/01_bbdd_sistemas_almacenamiento/assets/2025-09-16_11-49-28.png]]
 Foi unha gran **mellora con respecto ao modelo xerárquico**, xa que ofrecía unha **solución eficiente ao problema de redundancia de datos**; pero, aínda así, **a dificultade de** **administrar a información nunha base de datos de rede** significou que sexa un modelo utilizado na súa maioría por programadores máis que por usuarios finais.
 
 Os sistemas de base de datos en rede do mesmo xeito que os xerárquicos **utilizan punteiros para representar as interrelacións entre os datos**, pero neste caso créanse **estruturas de tipo rede**, que se diferencian das árbores xerárquicas en que **un pai pode ter moitos fillos e un fillo pode ter moitos pais**.
-![[2025-09-16_11-49-40.png]]
+![[10_base_datos/01_bbdd_sistemas_almacenamiento/assets/2025-09-16_11-49-40.png]]
 
 ### Características.
 
@@ -191,7 +191,7 @@ Os sistemas de base de datos en rede do mesmo xeito que os xerárquicos **utili
 - **Os dous tipos de rexistros deben ser diferentes**. **Non se admiten lazos** (relacións reflexivas).
 - Un rexistro membro pódese asociar con **máis dun propietario**.
 - A **recuperación dos datos** tamén é **navegacional**.
-![[2025-09-16_11-50-25.png]]
+![[10_base_datos/01_bbdd_sistemas_almacenamiento/assets/2025-09-16_11-50-25.png]]
 ### Vantaxes do modelo en rede.
 
 - **Facilidade para adaptarse a problemas onde as relaciones pai-fillo non teñan unha estrutura xerárquica sinxela**.
@@ -220,7 +220,7 @@ Este é **o modelo utilizado na actualidade para modelar problemas reais e adm
 - Chámase **rexistro (entidade ou tupla) a cada fila.**
 - Chámase  **campo (atributo) a cada columna** da táboa.
 - Unha **clave será un atributo ou conxunto de atributos que identifique de forma única a unha tupla**.
-![[2025-09-16_11-48-23.png|439x228]]
+![[10_base_datos/01_bbdd_sistemas_almacenamiento/assets/2025-09-16_11-48-23.png|439x228]]
 ### Características.
 
 As táboas deben cumprir unha serie de requisitos:
@@ -229,13 +229,13 @@ As táboas deben cumprir unha serie de requisitos:
 - **Non existen rexistros duplicados**.
 - **Os rexistros dentro dunha relación non teñen unha secuencia determinada**.
 - Pódense **crear novas táboas relacionando campos procedentes de 2 ó máis táboas** xa existentes.
-![[2025-09-16_11-46-28.png]]
+![[10_base_datos/01_bbdd_sistemas_almacenamiento/assets/2025-09-16_11-46-28.png]]
 Actualmente os sistemas relacionales son un estándar no mercado, especialmente en operacións.comerciais. Exemplos de sistemas de bases de datos relacionales son: Informix, DB2,.Oracle, SYBASE, SQLServer, MySQL, PostgreSQL...  
 
 # BBDD orientadas a obxectos
 
 Este modelo, bastante recente, e propio dos modelos informáticos orientados a obxectos, trata de almacenar na base de datos os obxectos completos (estado e comportamento).
-![[2025-09-16_11-45-34.png]]
+![[10_base_datos/01_bbdd_sistemas_almacenamiento/assets/2025-09-16_11-45-34.png]]
 Unha **base de datos orientada a obxectos** é unha base de datos que **incorpora** todos os **conceptos importantes do paradigma de obxectos**:
 
 - **Encapsulación**: Propiedade que permite ocultar a información ao resto dos obxectos, impedindo así accesos incorrectos ou conflitos.
