@@ -11,12 +11,15 @@
             "id": "c90de44fb8a99484",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "40_ipe/43_UD5_UD6/IPE_05.pdf"
+                "file": "40_ipe/43_UD5_UD6/25-12-10.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "IPE_05"
+              "icon": "lucide-file",
+              "title": "25-12-10"
             }
           }
         ]
@@ -134,13 +137,13 @@
   },
   "active": "c90de44fb8a99484",
   "lastOpenFiles": [
+    "40_ipe/43_UD5_UD6/IPE_05.pdf",
     "60_programacion/UD3/Practica 1a Ev.pdf",
     "40_ipe/IPE_09.pdf",
     "40_ipe/IPE_08.pdf",
     "40_ipe/IPE_07.pdf",
     "40_ipe/43_UD5_UD6/25-12-10.md",
     "40_ipe/43_UD5_UD6/IPE_06.pdf",
-    "40_ipe/43_UD5_UD6/IPE_05.pdf",
     "40_ipe/42_UD4/IPE_04.pdf",
     "40_ipe/41_UD1_UD2_UD3/IPE_01-03.pdf",
     "40_ipe/43_UD5_UD6/assets/2025-12-10_18-57-13.png",
