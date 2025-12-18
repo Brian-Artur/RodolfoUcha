@@ -11,12 +11,12 @@
             "id": "b77f86b0ab848fd9",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "image",
               "state": {
-                "file": "70_sistemas_iformaticos/Crear_archivos_brian_artur_faro.pdf"
+                "file": "70_sistemas_iformaticos/assets/Pasted Image 20251209213400_147.png"
               },
-              "icon": "lucide-file-text",
-              "title": "Crear_archivos_brian_artur_faro"
+              "icon": "lucide-image",
+              "title": "Pasted Image 20251209213400_147"
             }
           }
         ]
@@ -128,10 +128,25 @@
       "obsidian-excalidraw-plugin:Nuevo Bosquejo": false
     }
   },
-  "active": "b77f86b0ab848fd9",
+  "active": "9b7f378fda18ad9f",
   "lastOpenFiles": [
-    "70_sistemas_iformaticos/Pasted Image 20251014221626_505.png",
     "Sin título.md",
+    "70_sistemas_iformaticos/assets/Pasted Image 20251209213400_147.png",
+    "70_sistemas_iformaticos/assets/Pasted Image 20251209214141_813.png",
+    "70_sistemas_iformaticos/assets/Drawing 2025-12-09 21.32.57.excalidraw.md",
+    "70_sistemas_iformaticos/assets/Drawing 2025-12-09 20.35.10.excalidraw.md",
+    "30_ingles/25-12-09.pdf",
+    "30_ingles/25-12-16.md",
+    "30_ingles/25-12-02.md",
+    "20_entornos_desarrollo/bartur_Deseño_Probas_CD_práctica.pdf",
+    "20_entornos_desarrollo/01-12-25.md",
+    "20_entornos_desarrollo/chuleta.md",
+    "10_base_datos/14_diseño_bbdd/25-12-15.md",
+    "10_base_datos/UD2-Práctica3-ModeloER.pdf",
+    "10_base_datos/UD2_Práctica5_brianaf.pdf",
+    "10_base_datos/practica 3.jpeg",
+    "70_sistemas_iformaticos/Crear_archivos_brian_artur_faro.pdf",
+    "70_sistemas_iformaticos/Pasted Image 20251014221626_505.png",
     "70_sistemas_iformaticos/72/25-12-12.md",
     "70_sistemas_iformaticos/72/Instalación windows 10.md",
     "70_sistemas_iformaticos/72/25-12-16.md",
@@ -143,11 +158,7 @@
     "70_sistemas_iformaticos/72/assets/2025-12-16_22-03-18.png",
     "70_sistemas_iformaticos/72/assets/2025-12-16_21-51-00.png",
     "70_sistemas_iformaticos/72/assets/2025-12-16_21-25-00.png",
-    "70_sistemas_iformaticos/72/assets/2025-12-16_21-23-39.png",
     "70_sistemas_iformaticos/72/25-12-02.md",
-    "70_sistemas_iformaticos/72/assets/2025-12-16_21-14-42.png",
-    "70_sistemas_iformaticos/72/assets/2025-12-16_21-05-14.png",
-    "70_sistemas_iformaticos/72/assets/2025-12-16_21-04-33.png",
     "practica5.drawio",
     "Práctica3.drawio",
     "LMM.odt",
@@ -155,26 +166,14 @@
     "70_sistemas_iformaticos/UD1/Examen Tipo Test Sistemas Informáticos.markdown",
     "70_sistemas_iformaticos/UD1/Drawing 2025-10-14 20.44.27.excalidraw.md",
     "70_sistemas_iformaticos/UD1/Drawing 2025-10-07 21.12.20.excalidraw.md",
-    "70_sistemas_iformaticos/UD1/cd_daw1_ssii_temario_UD1_1_introduccion.pdf",
-    "70_sistemas_iformaticos/UD1/cd_daw1_ssii_doc_ejemplo.odt",
-    "70_sistemas_iformaticos/UD1/assets",
     "70_sistemas_iformaticos/UD1/04_discos_duros.md",
     "70_sistemas_iformaticos/UD1/03_redes.md",
     "70_sistemas_iformaticos/UD1/02_virtualizición.md",
     "70_sistemas_iformaticos/UD1/01_introduccion.md",
-    "70_sistemas_iformaticos/UD1",
     "70_sistemas_iformaticos/25-12-05.md",
     "70_sistemas_iformaticos/25-12-02.md",
     "70_sistemas_iformaticos/25-11-28.md",
-    "40_ipe/artur_faro_brian_Tarea UD1.pdf",
     "40_ipe/Drawing 2025-12-02 16.25.38.excalidraw.md",
-    "30_ingles/UD1/01_vocabulary.md",
-    "30_ingles/25-12-16.md",
-    "30_ingles/25-12-02.md",
-    "30_ingles/32.04_Ordering_Computer_Supplies/25-12-09.md",
-    "40_ipe/43_UD5_UD6/25-12-16.md",
-    "40_ipe/43_UD5_UD6/25-12-10.md",
-    "40_ipe/43_UD5_UD6/assets/Drawing 2025-12-16 16.18.53.excalidraw.md",
-    "10_base_datos/14_diseño_bbdd/25-12-15.md"
+    "30_ingles/UD1/01_vocabulary.md"
   ]
 }
