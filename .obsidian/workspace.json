@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "a698b0b80dc08dd6",
+        "id": "9570bc1c2244ff5c",
         "type": "tabs",
         "children": [
           {
-            "id": "c90de44fb8a99484",
+            "id": "b77f86b0ab848fd9",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "40_ipe/42_UD4/artur_faro_brian_Tarea_UD2.pdf"
+                "file": "70_sistemas_iformaticos/Crear_archivos_brian_artur_faro.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "artur_faro_brian_Tarea_UD2"
+              "title": "Crear_archivos_brian_artur_faro"
             }
           }
         ]
@@ -52,14 +52,14 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": true,
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "Buscar"
             }
           },
           {
@@ -69,14 +69,14 @@
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "title": "Marcadores"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 252.5
+    "width": 243.5
   },
   "right": {
     "id": "8ea6afd8fbfe8ef3",
@@ -87,6 +87,21 @@
         "type": "tabs",
         "children": [
           {
+            "id": "4c8069eda88d403f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "03_node/05_intro_testing.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de 05_intro_testing"
+            }
+          },
+          {
             "id": "2fe02c38080e261c",
             "type": "leaf",
             "state": {
@@ -95,90 +110,71 @@
               "icon": "lucide-git-fork",
               "title": "Vista gráfica"
             }
-          },
-          {
-            "id": "fa9a444e758cf7dc",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "ipe/UD1/02_medidasprevencio_proteccion.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for 02_medidasprevencio_proteccion"
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 299.5,
+    "width": 269.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Crear nueva base": false,
       "switcher:Abrir selector rápido": false,
       "graph:Abrir vista gráfica": false,
       "canvas:Crear nuevo lienzo": false,
       "command-palette:Abrir paleta de comandos": false,
-      "bases:Crear nueva base": false,
       "obsidian-excalidraw-plugin:Nuevo Bosquejo": false
     }
   },
-  "active": "c90de44fb8a99484",
+  "active": "b77f86b0ab848fd9",
   "lastOpenFiles": [
-    "40_ipe/42_UD4/IPE_04.pdf",
-    "40_ipe/42_UD4/artur_faro_brian_Tarea_UD2.pdf",
-    "40_ipe/42_UD4/artur_faro_brian_Tarea_UD2.docx",
-    "40_ipe/43_UD5_UD6/25-12-10.md",
-    "40_ipe/43_UD5_UD6/IPE_05.pdf",
-    "60_programacion/UD3/Practica 1a Ev.pdf",
-    "40_ipe/IPE_09.pdf",
-    "40_ipe/IPE_08.pdf",
-    "40_ipe/IPE_07.pdf",
-    "40_ipe/43_UD5_UD6/IPE_06.pdf",
-    "40_ipe/41_UD1_UD2_UD3/IPE_01-03.pdf",
-    "40_ipe/43_UD5_UD6/assets/2025-12-10_18-57-13.png",
-    "40_ipe/43_UD5_UD6/assets/2025-12-10_18-54-39.png",
-    "40_ipe/43_UD5_UD6/assets",
+    "70_sistemas_iformaticos/Pasted Image 20251014221626_505.png",
+    "Sin título.md",
+    "70_sistemas_iformaticos/72/25-12-12.md",
+    "70_sistemas_iformaticos/72/Instalación windows 10.md",
+    "70_sistemas_iformaticos/72/25-12-16.md",
+    "70_sistemas_iformaticos/72/assets/2025-12-16_22-15-11.png",
+    "70_sistemas_iformaticos/72/assets/2025-12-16_22-14-23.png",
+    "70_sistemas_iformaticos/72/assets/2025-12-16_22-13-48.png",
     "70_sistemas_iformaticos/72/25-12-09.md",
-    "Drawing 2025-12-09 21.32.57.excalidraw.md",
-    "70_sistemas_iformaticos/72/assets/2025-12-09_21-43-11.png",
-    "Pasted Image 20251209214141_813.png",
-    "Drawing 2025-12-09 20.35.10.excalidraw.md",
-    "70_sistemas_iformaticos/72/assets/2025-12-09_21-35-35.png",
-    "70_sistemas_iformaticos/72/assets/2025-12-09_21-34-57.png",
-    "Pasted Image 20251209213400_147.png",
     "70_sistemas_iformaticos/72/25-12-05.md",
-    "70_sistemas_iformaticos/72/25-11-28.md",
-    "30_ingles/32.04_Ordering_Computer_Supplies/25-12-09.md",
-    "70_sistemas_iformaticos/71_UD1/03_redes.md",
-    "70_sistemas_iformaticos/71_UD1/01_introduccion.md",
-    "70_sistemas_iformaticos/71_UD1/02_virtualizición.md",
-    "40_ipe/42_UD4/Sin título.md",
-    "40_ipe/42_UD4/11-25.md",
-    "40_ipe/01 - Tarea UD1.md",
-    "40_ipe/42_UD4/11-26.md",
-    "40_ipe/42_UD4/12-02.md",
-    "40_ipe/Drawing 2025-12-02 16.25.38.excalidraw.md",
-    "40_ipe/40_ipe.md",
-    "30_ingles/UD1/ud2.md",
-    "30_ingles/UD1/Dialogos.md",
-    "30_ingles/UD1/01_vocabulary.md",
-    "80_sostenibilidad/Untitled.md",
-    "40_ipe/42_UD4/12-03.md",
-    "30_ingles/25-12-02.md",
+    "70_sistemas_iformaticos/72/assets/2025-12-16_22-03-18.png",
+    "70_sistemas_iformaticos/72/assets/2025-12-16_21-51-00.png",
+    "70_sistemas_iformaticos/72/assets/2025-12-16_21-25-00.png",
+    "70_sistemas_iformaticos/72/assets/2025-12-16_21-23-39.png",
     "70_sistemas_iformaticos/72/25-12-02.md",
-    "50_lenguaje_marcas/25-09-15.md",
-    "10_base_datos/practica 3.jpeg",
-    "10_base_datos/practica 5.jpeg",
-    "70_sistemas_iformaticos/assets/Pasted Image 20251007221933_751.png"
+    "70_sistemas_iformaticos/72/assets/2025-12-16_21-14-42.png",
+    "70_sistemas_iformaticos/72/assets/2025-12-16_21-05-14.png",
+    "70_sistemas_iformaticos/72/assets/2025-12-16_21-04-33.png",
+    "practica5.drawio",
+    "Práctica3.drawio",
+    "LMM.odt",
+    "Brian-Artur_InstalacionIDEs.odt",
+    "70_sistemas_iformaticos/UD1/Examen Tipo Test Sistemas Informáticos.markdown",
+    "70_sistemas_iformaticos/UD1/Drawing 2025-10-14 20.44.27.excalidraw.md",
+    "70_sistemas_iformaticos/UD1/Drawing 2025-10-07 21.12.20.excalidraw.md",
+    "70_sistemas_iformaticos/UD1/cd_daw1_ssii_temario_UD1_1_introduccion.pdf",
+    "70_sistemas_iformaticos/UD1/cd_daw1_ssii_doc_ejemplo.odt",
+    "70_sistemas_iformaticos/UD1/assets",
+    "70_sistemas_iformaticos/UD1/04_discos_duros.md",
+    "70_sistemas_iformaticos/UD1/03_redes.md",
+    "70_sistemas_iformaticos/UD1/02_virtualizición.md",
+    "70_sistemas_iformaticos/UD1/01_introduccion.md",
+    "70_sistemas_iformaticos/UD1",
+    "70_sistemas_iformaticos/25-12-05.md",
+    "70_sistemas_iformaticos/25-12-02.md",
+    "70_sistemas_iformaticos/25-11-28.md",
+    "40_ipe/artur_faro_brian_Tarea UD1.pdf",
+    "40_ipe/Drawing 2025-12-02 16.25.38.excalidraw.md",
+    "30_ingles/UD1/01_vocabulary.md",
+    "30_ingles/25-12-16.md",
+    "30_ingles/25-12-02.md",
+    "30_ingles/32.04_Ordering_Computer_Supplies/25-12-09.md",
+    "40_ipe/43_UD5_UD6/25-12-16.md",
+    "40_ipe/43_UD5_UD6/25-12-10.md",
+    "40_ipe/43_UD5_UD6/assets/Drawing 2025-12-16 16.18.53.excalidraw.md",
+    "10_base_datos/14_diseño_bbdd/25-12-15.md"
   ]
 }

@@ -1,14 +1,16 @@
 {
   "cssTheme": "AnuPpuccin",
-  "accentColor": "#5c9ef5",
+  "accentColor": "",
   "theme": "moonstone",
   "nativeMenus": false,
   "baseFontSizeAction": false,
-  "baseFontSize": 16,
+  "baseFontSize": 17,
   "monospaceFontFamily": "JetBrains Mono,Fira Code",
-  "enabledCssSnippets": [],
+  "enabledCssSnippets": [
+    "colores"
+  ],
   "showViewHeader": true,
   "showRibbon": false,
-  "textFontFamily": "JetBrains Mono,Open Sans,Besley",
-  "interfaceFontFamily": "JetBrains Mono,Inter"
+  "textFontFamily": "IBM Plex Serif,Newsreader,Besley",
+  "interfaceFontFamily": "Inter"
 }
