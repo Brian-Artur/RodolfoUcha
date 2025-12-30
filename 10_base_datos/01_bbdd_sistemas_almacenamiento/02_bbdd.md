@@ -1,6 +1,5 @@
 [Bases de datos](https://centros.edu.xunta.gal/cifprodolfouchapineiro/aulavirtual/pluginfile.php/36924/mod_resource/content/1/index.html)
-# Bases de Datos.
-
+# Bases de Datos.  
 O desenvolvemento dos sistemas de bases de datos **converteuse en crucial para proporcionar información correcta (sen erros) e oportuna (no momento que se necesita)**, aos directivos **como axuda á toma de decisións**.
 
 Hai **cambio radical no enfoque do sistema de información**:

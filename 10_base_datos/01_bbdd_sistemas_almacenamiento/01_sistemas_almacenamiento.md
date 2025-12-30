@@ -57,7 +57,7 @@ _En cada sistema, é o sistema operativo, máis concretamente o seu **sistema d
 ## Características:
 
 - **Nome**: utilízase para a súa identificación. Cada sistema ten as súas regras para nomear os arquivos.
-- **Atributos dun arquivo**: información adicional utilizada polo sistema e útil ao usuario (data e hora de creación, tamaño, #etc). Varía dun sistema operativo a outro.
+- **Atributos dun arquivo**: información adicional utilizada polo sistema e útil ao usuario (data e hora de creación, tamaño, etc). Varía dun sistema operativo a outro.
 - **Rexistro lóxico**: Conxunto de campos referentes a un mesmo suxeito ou obxecto. Un ficheiro é un conxunto de rexistros do mesmo tipo. **Cada un destes rexistros ten unha dirección lóxica** usada polos programas do usuario que indica a posición relativa que ocupa o rexistro no arquivo. A **dirección física é a posición real do rexistro no soporte**, é dicir, a dirección hardware.
 - **Bloque ou rexistro físico**: cantidade de datos que se transmiten nunha operación de entrada/saída, esto é, a cantidade fixa de información que transporta o SO cada vez que accede ao soporte onde se aloxa o arquivo. Un rexistro físico pode conter varios rexistros lóxicos, ou poida que un rexistro lóxico ocupe varios rexistros físicos. 
 - **Factor de bloqueo ou de blocaje**: nº de rexistros lóxicos contidos nun rexistro físico.

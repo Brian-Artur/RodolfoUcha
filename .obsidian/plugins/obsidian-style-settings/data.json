@@ -233,7 +233,7 @@
   "primary-theme@@graph-arrow@@dark": "#BBF2B7",
   "primary-theme@@graph-line@@dark": "#E4CEAB99",
   "primary-theme@@file-line-width": "800px",
-  "primary-theme@@editor-file-header": "file-header-title-hover",
+  "primary-theme@@editor-file-header": "file-header-default",
   "primary-theme@@active-line-highlight": false,
   "things-style@@progress-color": false,
   "things-style@@strong-color": "#8474CF",
@@ -243,5 +243,6 @@
   "primary-theme@@ribbon-icon-spacing": 2,
   "primary-theme@@editor-bgpattern-color@@dark": "#1C1916",
   "primary-theme@@editor-border-color@@dark": "#3F3328",
-  "primary-theme@@editor-bg-color@@dark": "#2C2623"
+  "primary-theme@@editor-bg-color@@dark": "#2C2623",
+  "primary-theme@@colorful-folders_inherit-color": false
 }
