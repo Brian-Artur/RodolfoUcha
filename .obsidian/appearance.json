@@ -1,16 +1,14 @@
 {
-  "cssTheme": "AnuPpuccin",
+  "cssTheme": "Primary",
   "accentColor": "",
-  "theme": "moonstone",
+  "theme": "system",
   "nativeMenus": false,
   "baseFontSizeAction": false,
-  "baseFontSize": 17,
+  "baseFontSize": 16,
   "monospaceFontFamily": "JetBrains Mono,Fira Code",
-  "enabledCssSnippets": [
-    "colores"
-  ],
+  "enabledCssSnippets": [],
   "showViewHeader": true,
   "showRibbon": false,
-  "textFontFamily": "IBM Plex Serif,Newsreader,Besley",
-  "interfaceFontFamily": "Inter"
+  "textFontFamily": "Segoe UI,Noto Sans",
+  "interfaceFontFamily": "Segoe UI,Noto Sans"
 }

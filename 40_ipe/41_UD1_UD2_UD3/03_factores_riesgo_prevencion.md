@@ -1,10 +1,10 @@
 # Riesgos derivados de las condiciones de seguridad
 ## Lugares de trabajo
-=={blue}**Noticias Jurídicas**==
+*Noticias Jurídicas*
 RD 486/97: Especifica cuál debe ser la medida específica de:
 - Estructuras y suelos
 - Espacios de trabajo
-- Barandillas
+- `Barandillas
 - Escaleras y vías de circulación
 - Salidas de evacuación
 

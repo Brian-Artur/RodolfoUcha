@@ -4,19 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "9570bc1c2244ff5c",
+        "id": "f272cc960cb3b98e",
         "type": "tabs",
         "children": [
           {
-            "id": "b77f86b0ab848fd9",
+            "id": "18515b13bcebdc66",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "70_sistemas_iformaticos/assets/Pasted Image 20251209213400_147.png"
+                "file": "README.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted Image 20251209213400_147"
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ]
@@ -63,7 +66,7 @@
             }
           },
           {
-            "id": "7fba962e306c1454",
+            "id": "4835b396be04ae0b",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -83,26 +86,26 @@
     "type": "split",
     "children": [
       {
-        "id": "466fae46fc712bd4",
+        "id": "1be9f61d29fe9075",
         "type": "tabs",
         "children": [
           {
-            "id": "4c8069eda88d403f",
+            "id": "2c3c3c431b38c2b1",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "03_node/05_intro_testing.md",
+                "file": "70_sistemas_iformaticos/72/25-12-09.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de 05_intro_testing"
+              "title": "Esquema de 25-12-09"
             }
           },
           {
-            "id": "2fe02c38080e261c",
+            "id": "b77f86b0ab848fd9",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -111,69 +114,68 @@
               "title": "Vista gráfica"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 269.5,
+    "width": 417.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Crear nueva base": false,
       "switcher:Abrir selector rápido": false,
       "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "obsidian-excalidraw-plugin:Nuevo Bosquejo": false
+      "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "9b7f378fda18ad9f",
+  "active": "18515b13bcebdc66",
   "lastOpenFiles": [
-    "Sin título.md",
+    "README.md",
+    "10_base_datos/MOC.md",
+    "25-12-29.png",
+    "70_sistemas_iformaticos/72/25-12-16.md",
+    "70_sistemas_iformaticos/72/25-12-02.md",
+    "70_sistemas_iformaticos/72/25-12-09.md",
+    "70_sistemas_iformaticos/72/25-12-12.md",
+    "40_ipe/42_UD4/11-26.md",
+    "70_sistemas_iformaticos/72/25-12-05.md",
+    "30_ingles/25-12-02.md",
+    "40_ipe/41_UD1_UD2_UD3/03_factores_riesgo_prevencion.md",
+    "40_ipe/41_UD1_UD2_UD3/02_manual informatica_y_comunicaciones_es.pdf",
+    "40_ipe/41_UD1_UD2_UD3/02_medidasprevencio_proteccion.md",
+    "40_ipe/42_UD4/12-02.md",
+    "40_ipe/42_UD4/12-03.md",
+    "40_ipe/42_UD4/11-25.md",
+    "40_ipe/IPE_07.pdf",
+    "40_ipe/IPE_08.pdf",
+    "60_programacion/UD1/03 - Soluciones boletín DFD/Boletin1.Ej07.png",
+    "60_programacion/UD1/03 - Soluciones boletín DFD/Boletin1.Ej13.png",
+    "60_programacion/UD1/03 - Soluciones boletín DFD/Boletin1.Ej02.png",
+    "60_programacion/UD1/03 - Soluciones boletín DFD/Boletin1.Ej08.png",
+    "60_programacion/UD1/03 - Soluciones boletín DFD/Boletin1.Ej04.png",
+    "60_programacion/UD1/01 - Introduccion programacion.pdf",
+    "60_programacion/UD1/00 - aprendejava.pdf",
+    "60_programacion/UD1/01_introduccion_rogramacion.pdf",
+    "60_programacion/UD2/12 - Ejercicios Java 2.pdf",
+    "60_programacion/UD2/13 - Ejercicios Java 3.pdf",
+    "60_programacion/UD2/14 - Ejercicios Java 4.pdf",
+    "60_programacion/UD2/15 - Boletin Strings 1.pdf",
+    "60_programacion/UD2/16 - String métodos.md",
+    "30_ingles/32.04_Ordering_Computer_Supplies/25-12-09.md",
+    "70_sistemas_iformaticos/25-11-28.md",
+    "70_sistemas_iformaticos/25-12-05.md",
+    "70_sistemas_iformaticos/25-12-02.md",
+    "70_sistemas_iformaticos/chuleta.md",
+    "80_sostenibilidad/Bibliografía.md",
+    "30_ingles/25-12-16.md",
     "70_sistemas_iformaticos/assets/Pasted Image 20251209213400_147.png",
     "70_sistemas_iformaticos/assets/Pasted Image 20251209214141_813.png",
     "70_sistemas_iformaticos/assets/Drawing 2025-12-09 21.32.57.excalidraw.md",
     "70_sistemas_iformaticos/assets/Drawing 2025-12-09 20.35.10.excalidraw.md",
-    "30_ingles/25-12-09.pdf",
-    "30_ingles/25-12-16.md",
-    "30_ingles/25-12-02.md",
-    "20_entornos_desarrollo/bartur_Deseño_Probas_CD_práctica.pdf",
     "20_entornos_desarrollo/01-12-25.md",
     "20_entornos_desarrollo/chuleta.md",
-    "10_base_datos/14_diseño_bbdd/25-12-15.md",
-    "10_base_datos/UD2-Práctica3-ModeloER.pdf",
-    "10_base_datos/UD2_Práctica5_brianaf.pdf",
     "10_base_datos/practica 3.jpeg",
-    "70_sistemas_iformaticos/Crear_archivos_brian_artur_faro.pdf",
-    "70_sistemas_iformaticos/Pasted Image 20251014221626_505.png",
-    "70_sistemas_iformaticos/72/25-12-12.md",
-    "70_sistemas_iformaticos/72/Instalación windows 10.md",
-    "70_sistemas_iformaticos/72/25-12-16.md",
-    "70_sistemas_iformaticos/72/assets/2025-12-16_22-15-11.png",
-    "70_sistemas_iformaticos/72/assets/2025-12-16_22-14-23.png",
-    "70_sistemas_iformaticos/72/assets/2025-12-16_22-13-48.png",
-    "70_sistemas_iformaticos/72/25-12-09.md",
-    "70_sistemas_iformaticos/72/25-12-05.md",
-    "70_sistemas_iformaticos/72/assets/2025-12-16_22-03-18.png",
-    "70_sistemas_iformaticos/72/assets/2025-12-16_21-51-00.png",
-    "70_sistemas_iformaticos/72/assets/2025-12-16_21-25-00.png",
-    "70_sistemas_iformaticos/72/25-12-02.md",
-    "practica5.drawio",
-    "Práctica3.drawio",
-    "LMM.odt",
-    "Brian-Artur_InstalacionIDEs.odt",
-    "70_sistemas_iformaticos/UD1/Examen Tipo Test Sistemas Informáticos.markdown",
-    "70_sistemas_iformaticos/UD1/Drawing 2025-10-14 20.44.27.excalidraw.md",
-    "70_sistemas_iformaticos/UD1/Drawing 2025-10-07 21.12.20.excalidraw.md",
-    "70_sistemas_iformaticos/UD1/04_discos_duros.md",
-    "70_sistemas_iformaticos/UD1/03_redes.md",
-    "70_sistemas_iformaticos/UD1/02_virtualizición.md",
-    "70_sistemas_iformaticos/UD1/01_introduccion.md",
-    "70_sistemas_iformaticos/25-12-05.md",
-    "70_sistemas_iformaticos/25-12-02.md",
-    "70_sistemas_iformaticos/25-11-28.md",
-    "40_ipe/Drawing 2025-12-02 16.25.38.excalidraw.md",
-    "30_ingles/UD1/01_vocabulary.md"
+    "70_sistemas_iformaticos/Pasted Image 20251014221626_505.png"
   ]
 }
