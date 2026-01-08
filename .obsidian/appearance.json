@@ -1,14 +1,14 @@
 {
-  "cssTheme": "Primary",
+  "cssTheme": "Blue Topaz",
   "accentColor": "",
-  "theme": "system",
+  "theme": "moonstone",
   "nativeMenus": false,
   "baseFontSizeAction": false,
-  "baseFontSize": 16,
-  "monospaceFontFamily": "JetBrains Mono,Fira Code",
+  "baseFontSize": 17,
+  "monospaceFontFamily": "FiraCode Nerd Font,JetBrains Mono",
   "enabledCssSnippets": [],
   "showViewHeader": true,
   "showRibbon": false,
-  "textFontFamily": "Segoe UI,Noto Sans",
-  "interfaceFontFamily": "Segoe UI,Noto Sans"
+  "textFontFamily": "Open Sans,Segoe UI,Noto Sans",
+  "interfaceFontFamily": "Open Sans,Segoe UI,Noto Sans"
 }

@@ -1,5 +1,7 @@
 [Sistemas de almacenamiento](https://centros.edu.xunta.gal/cifprodolfouchapineiro/aulavirtual/pluginfile.php/35137/mod_resource/content/1/index.html)
+
 # Sistemas de almacenamento
+
 Os sistemas de almacenamento evolucionaron do papel gardado en arquivos físicos, aos ficheiros aloxados en dispositivos de almacenamento secundario, para logo despois chegar as Bases de Datos.
 
 A medida que **evolucionaba a tecnoloxía**, **xurdían novos sistemas de almacenamento** que intentaban paliar os inconvenientes dos sistemas anteriores e axilizar as operacións sobre os datos (acceso, almacenamento, modificiacións, integridade,...).
@@ -20,6 +22,7 @@ Os **obxectivos** **desta UD** son os seguintes:
 ![[10_base_datos/01_bbdd_sistemas_almacenamiento/assets/2025-09-15_17-27-52.png|452x1130]]
 
 # Ficheiros
+
 Un sistema de almacenamento relevante na xestión automatizada de datos foron os ficheiros. 
 
 **Un ficheiro é unha estrutura de datos** (conxunto de información que está relacionada entre si e estruturada en unidades máis pequenas) que agrupa unha secuencia de 0 ou máis tuplas denominadas, normalmente rexistros (cada rexistro é un bloque de información que se pode manexar de forma unitaria), e que á súa vez se poden compoñer doutras estruturas de datos ás que se adoitan chamar  
@@ -40,7 +43,9 @@ Resumindo, podemos enumerar os seguintes **problemas**:
 - ...
 
 # Definicións
+
 ![[10_base_datos/01_bbdd_sistemas_almacenamiento/assets/2025-09-16_10-47-47.png]]  
+
 - Un **ficheiro/arquivo/file** **é unha estrutura de datos** (conxunto de información relacionada entre si e estruturada en unidades máis pequenas) que **agrupa unha secuencia de 0 ou máis** **tuplas semellantes** denominadas, normalmente **rexistros**  e **que á súa vez** **se poden compoñer** doutras estruturas de datos ás que se adoitan chamar **campos**.
 - **O arquivo é tratado como unha entidade individual** polos usuarios e as aplicacións e pode ser referenciada polo nome. Os arquivos teñen nomes únicos e poden crearse, borrarse, modificarse, ....
 - **Un campo (Field)** é o elemento de datos básico. Un campo individual **contén un valor único**. Esta caracterizado pola súa lonxitude e polo tipo de datos. Dependendo do deseño do arquivo, os campos poden ser de tamaño fixo ou variable.
@@ -48,6 +53,7 @@ Resumindo, podemos enumerar os seguintes **problemas**:
 - Tamén dependendo do deseño, os rexistros poden ser de **lonxitude fixa ou de lonxitude variable**. Un rexistro vai ter unha lonxitude variable se algúns dos campos son de tamaños variables ou se o numero de campos é variable. Cada campo ten un nome de campo.
 
 # Características
+
 Os ficheiros **poden situarse en memoria principal ou secundaria**, pero o máis normal é que se utilice esta última, debido sobre todo ao seu tamaño (en moitos casos moi grande).
 
 _En cada sistema, é o sistema operativo, máis concretamente o seu **sistema de arquivos, o encargado da administración dos ficheiros**, e o que establece para tal efecto, a súa estrutura, nome, forma de acceso, posibles usos, implantación e técnicas de protección_.
@@ -65,36 +71,43 @@ _En cada sistema, é o sistema operativo, máis concretamente o seu **sistema d
 - **Organización dun ficheiro**: método de ordenación e localización dos rexistros dos arquivos sobre o soporte.
 - **Método de acceso**: aquel que permite atopar o emprazamento dun rexistro no soporte.
 
-# Tipos e formatos  
+# Tipos e formatos
+
 **O formato e tipo de ficheiro determina a forma de interpretar a información** que contén, xa que, en definitiva, o único que se almacena nunha ristra de bits (ceros e uns), de forma que **é necesaria a súa interpretación para dar sentido á información que almacena**.
 
 Varias clasificacións: 
+
 - **Segundo o seu contido**:
-	- **Ficheiros de texto:** adoitan chamarse tamén ficheiros planos ou ficheiros ascii. ASCII é un estándar que asigna un valor numérico a cada carácter, lexible polo ser humano. Por exemplo: ficheiros de configuración do SO (adoitan ter extensión .ini, .inf, .conf), ficheiros de código fonte (.java, .sql), ficheiros de páxinas web (.html, .php, .css, .xml),etc.
-	- **Ficheiros binarios**: todos aqueles que non son de texto e requiren un formato para ser interpretado. Algúns tipos de formatos de ficheiros binarios son:
-	    - de **imaxe**: .jpg, .gif, .tiff, .bmp ….
-	    - de **vídeo**: .mpg, .mov, .avi
-	    - **comprimidos** ou empaquetados: .zip, .tar....
-	    - **executables** ou compilados: .exe, . Com, .cgi...
-	    - procesadores de **texto**: .doc, .odt
-![[10_base_datos/01_bbdd_sistemas_almacenamiento/assets/2025-09-16_10-49-43.png]]  
+  
+  - **Ficheiros de texto:** adoitan chamarse tamén ficheiros planos ou ficheiros ascii. ASCII é un estándar que asigna un valor numérico a cada carácter, lexible polo ser humano. Por exemplo: ficheiros de configuración do SO (adoitan ter extensión .ini, .inf, .conf), ficheiros de código fonte (.java, .sql), ficheiros de páxinas web (.html, .php, .css, .xml),etc.
+  - **Ficheiros binarios**: todos aqueles que non son de texto e requiren un formato para ser interpretado. Algúns tipos de formatos de ficheiros binarios son:
+    - de **imaxe**: .jpg, .gif, .tiff, .bmp ….
+    - de **vídeo**: .mpg, .mov, .avi
+    - **comprimidos** ou empaquetados: .zip, .tar....
+    - **executables** ou compilados: .exe, . Com, .cgi...
+    - procesadores de **texto**: .doc, .odt
+      ![[10_base_datos/01_bbdd_sistemas_almacenamiento/assets/2025-09-16_10-49-43.png]]  
 
 - **Segundo o modo de acceder aos datos**: secuencial, directa, indexada. Dado que as características da organización e modo de acceso van determinar o uso dun ou outro tipo de ficheiro,  tratámolos en profundidade no seguiente apartado.
-    - **Secuencial**: os datos están dispostos seguindo unha secuencia ordenada, é dicir, uns detrás doutros. Caracterízanse por ter que percorrer todos os datos anteriores para chegar a un en concreto.
-    - **Directa**: estes ficheiros están aloxados en dispositivos direccionables (pódese acceder a calquera dirección lóxica do soporte, directamente). Os rexistros conteñen un campo clave que os identifica unívocamente e coincide coa dirección lóxica que ocupan no soporte, polo que permiten acceder a un dato en concreto sen necesidade de acceder a todos os anteriores. 
-    - **Indexada**: estes ficheiros están aloxados en dispositivos direccionables. Os rexistros conteñen, como mínimo, un campo clave principal que os identifica unívocamente. O ficheiro contará cunha táboa ordeada onde recollerá pares clave principal-dirección lóxica no soporte,  para axilizar a busca dun rexistro determinado empregando a clave principal.
-    - Existen variantes das anteriores que mesturan as mellores características de cada unha delas.
-- **Segundo a súa utilidade** (que uso vai facer del)/del): mestres, históricos, movementos
-    - **Permanentes**:
-        - **Mestres**: Conteñen información variable que é necesario actualizar a miúdo, tamén se denomina ficheiros de situación. Son os máis importantes e reflicten a información básica a cada pouco. Exemplo: ficheiro de almacén.
-        - **Constantes**: Conteñen información fixa necesaria para o funcionamento dunha aplicación. A información non varía, ou o fai a longo prazo. Exemplo: ficheiro cos tipos de cotización á Seguridade Social.
-        - **Históricos**: Conteñen información acumulada ao longo do tempo que desexamos conservar. Adoitan ser copias de ficheiros ou resultado de procesos. 
-    - **Temporais**:
-        - **Movemento**: tamén chamados ficheiros de transaccións porque se utilizan para actualizar os ficheiros mestres, A vida destes ficheiros adoita ser curta xa que cando se produce a actualización do ficheiro permanente, destrúense, ou se gardan como un histórico.
-        - **De Traballo ou de Manobra**: Son ficheiros auxiliares, creados durante a execución dos programas, almacenan información que será manexada por estes programas. Son ficheiros de apoio, que se eliminan cando finaliza o programa e que non son visibles polo usuario. Exemplo: ficheiro auxiliar que se usa para clasificar outros ficheiros.
- ![[10_base_datos/01_bbdd_sistemas_almacenamiento/assets/2025-09-16_10-51-48.png]]  
+  
+  - **Secuencial**: os datos están dispostos seguindo unha secuencia ordenada, é dicir, uns detrás doutros. Caracterízanse por ter que percorrer todos os datos anteriores para chegar a un en concreto.
+  - **Directa**: estes ficheiros están aloxados en dispositivos direccionables (pódese acceder a calquera dirección lóxica do soporte, directamente). Os rexistros conteñen un campo clave que os identifica unívocamente e coincide coa dirección lóxica que ocupan no soporte, polo que permiten acceder a un dato en concreto sen necesidade de acceder a todos os anteriores. 
+  - **Indexada**: estes ficheiros están aloxados en dispositivos direccionables. Os rexistros conteñen, como mínimo, un campo clave principal que os identifica unívocamente. O ficheiro contará cunha táboa ordeada onde recollerá pares clave principal-dirección lóxica no soporte,  para axilizar a busca dun rexistro determinado empregando a clave principal.
+  - Existen variantes das anteriores que mesturan as mellores características de cada unha delas.
 
-# Organización e modo de acceso  
+- **Segundo a súa utilidade** (que uso vai facer del)/del): mestres, históricos, movementos
+  
+  - **Permanentes**:
+    - **Mestres**: Conteñen información variable que é necesario actualizar a miúdo, tamén se denomina ficheiros de situación. Son os máis importantes e reflicten a información básica a cada pouco. Exemplo: ficheiro de almacén.
+    - **Constantes**: Conteñen información fixa necesaria para o funcionamento dunha aplicación. A información non varía, ou o fai a longo prazo. Exemplo: ficheiro cos tipos de cotización á Seguridade Social.
+    - **Históricos**: Conteñen información acumulada ao longo do tempo que desexamos conservar. Adoitan ser copias de ficheiros ou resultado de procesos. 
+  - **Temporais**:
+    - **Movemento**: tamén chamados ficheiros de transaccións porque se utilizan para actualizar os ficheiros mestres, A vida destes ficheiros adoita ser curta xa que cando se produce a actualización do ficheiro permanente, destrúense, ou se gardan como un histórico.
+    - **De Traballo ou de Manobra**: Son ficheiros auxiliares, creados durante a execución dos programas, almacenan información que será manexada por estes programas. Son ficheiros de apoio, que se eliminan cando finaliza o programa e que non son visibles polo usuario. Exemplo: ficheiro auxiliar que se usa para clasificar outros ficheiros.
+      ![[10_base_datos/01_bbdd_sistemas_almacenamiento/assets/2025-09-16_10-51-48.png]]  
+
+# Organización e modo de acceso
+
 ## Organización.
 
 **Forma en que se colocan os datos contidos nos rexistros sobre o soporte informático (disco, cinta,..) durante a súa gravación**.
@@ -117,7 +130,8 @@ _**A elección dunha forma de organización determinada está en función do tip
 
 Exemplo: Un ficheiro no que os rexistros se actualicen todos xuntos unha vez ao mes, e o tempo necesario para a actualización non sexa importante, non pode ter a mesma organización que un ficheiro que se actualice todos os días varias veces poñendo ao día os datos que conteñen os seus rexistros e o tempo empregado para a actualización sexa o menor posible.
 
-##  Secuencial
+## Secuencial
+
 Un ficheiro con organización secuencial é aquel no que:
 
 - **Os rexistros se van gravando un a continuación doutro**, sobre o soporte informático, **sen deixar ocos** no medio.
@@ -148,10 +162,10 @@ ser as modificacións e borrado lóxico de rexistros.
 O formato das i**nstrucións para manexar este tipo de ficheiros** dependerá da linguaxe de programación co que traballemos. De forma xeral podemos resumilas nas seguintes:
 
 - **Abrir** (OPEN) Abrir un ficheiro para poder traballar cos seus rexistros. Se pode abrir de catro formas:
-    - INPUT (I) - Só para ler rexistros.
-    - OUTPUT (0) - Só para escribir rexistros.
-    - INPUT-OUPUT (I-Ou) - Para ler e escribir.
-    - EXTEND (E) - Para engadir rexistros ao final do ficheiro
+  - INPUT (I) - Só para ler rexistros.
+  - OUTPUT (0) - Só para escribir rexistros.
+  - INPUT-OUPUT (I-Ou) - Para ler e escribir.
+  - EXTEND (E) - Para engadir rexistros ao final do ficheiro
 - **Pechar** (CLOSE) Pechar o ficheiro, cando xa non se vai traballar mais cos seus rexistros.
 - **Ler** (READ) Pasar a información dun rexistro á memoria principal do computador para que o programa poida traballar cos datos que contén. Cada vez que se dá unha orde de ler lese o seguinte rexistro.
 - **Escribir** (WRITE) Grava no soporte a información dun rexistro coa información que teña na memoria principal.
@@ -168,6 +182,7 @@ Co fin de mellorar as prestacións da organización secuencial xorden unha serie
 - **A organización secuencial encadeada**, que nos permite ter os rexistro ordenados segundo unha orde lóxica diferente da orde física no que están gravados grazas á utilización duns campos adicionais chamados punteiros.
 
 ## Secuencial-Indexada
+
 Aos ficheiros con este tipo de organización **chámaselles, tamén, ficheiros indexados**, porque se basea na **utilización de índices, que permiten o acceso a un rexistro do ficheiro de forma directa**, sen ter que ler os anteriores.
 
 Estes índices son similares aos dos libros. Se nos interesa ler un capítulo concreto podemos recorrer ao índice que nos di en que páxina comeza, e abrimos o libro por esa páxina, sen ter que mirar en todas as páxinas anteriores para localizalo.
@@ -175,19 +190,24 @@ Estes índices son similares aos dos libros. Se nos interesa ler un capítulo co
 As **características** máis relevantes dun ficheiro indexado, son as seguintes:
 
 - **O deseño do rexistro** ten que ter **un campo, ou combinación de campos, que permita identificar cada rexistro de forma única**, é dicir, que non poida haber dous rexistros que teñan a mesma información nel. **A este campo chámaselle campo clave e é o que vai servir de índice**. Un mesmo ficheiro **pode ter mais dun campo clave**, pero polo menos un deles non admitirá valores duplicados e chámaselle clave primaria. Ás restantes **chámaselles claves alternativas**.
+
 - **Permiten utilizar o modo de acceso secuencial e o modo de acceso directo** para ler a información gardada nos seus rexistros.
-    - **O modo de acceso directo** faise coñecendo o contido do campo clave do rexistro que queremos localizar. Con esa información o sistema operativo pode consultar o índice e coñecer a posición do rexistro dentro do ficheiro.
-    - **No modo de acceso secuencial** os rexistros son lidos ordenados polo contido do campo clave, independentemente da orde en que se foron gravando (A orde lóxica non é igual á orde física), debido a que o acceso aos datos faise a través do índice, que para facer máis fácil a procura dos rexistros permanece sempre ordenado polo campo clave.
+  
+  - **O modo de acceso directo** faise coñecendo o contido do campo clave do rexistro que queremos localizar. Con esa información o sistema operativo pode consultar o índice e coñecer a posición do rexistro dentro do ficheiro.
+  - **No modo de acceso secuencial** os rexistros son lidos ordenados polo contido do campo clave, independentemente da orde en que se foron gravando (A orde lóxica non é igual á orde física), debido a que o acceso aos datos faise a través do índice, que para facer máis fácil a procura dos rexistros permanece sempre ordenado polo campo clave.
+
 - **Soamente pódese gravar nun soporte direccionable**. Ex.: disco magnético. Se isto non fóra así non podería empregar o acceso directo.
-![[10_base_datos/01_bbdd_sistemas_almacenamiento/assets/2025-09-16_10-57-02.png]] 
-## Estructura dos ficheiros con organización secuencial-indexada.
+  ![[10_base_datos/01_bbdd_sistemas_almacenamiento/assets/2025-09-16_10-57-02.png]] 
+  
+  ## Estructura dos ficheiros con organización secuencial-indexada.
 
 Un arquivo con organización secuencial indexada está formado por:
+
 - **Área de datos, primaria ou secuencial:**  É a área na que se escriben os rexistros cando o arquivo é creado. Nesta área **os rexistros atópanse agrupados por segmentos.**
-	Os rexistros deste tipo de ficheiros, grávanse nun soporte direccionable (permite o acceso directo), en orde ascendente dacordo cos valores da  súa clave, en páxinas ou bloques de lonxitude fixa, chamados segmentos.
-	![[10_base_datos/01_bbdd_sistemas_almacenamiento/assets/2025-09-16_10-58-28.png]]  
+    Os rexistros deste tipo de ficheiros, grávanse nun soporte direccionable (permite o acceso directo), en orde ascendente dacordo cos valores da  súa clave, en páxinas ou bloques de lonxitude fixa, chamados segmentos.
+    ![[10_base_datos/01_bbdd_sistemas_almacenamiento/assets/2025-09-16_10-58-28.png]]  
 - **Área de índices:** é creada polo sistema ao mesmo tempo que se van almacenando os datos. Contén unha táboa que **asocia as claves coas direccións dos rexistros na área de datos**. **Cada entrada da área de índices** está formada polo valor máis alto da clave de cada grupo de rexistros e un punteiro coa dirección do primeiro rexistro do grupo.
-	![[10_base_datos/01_bbdd_sistemas_almacenamiento/assets/2025-09-16_10-59-34.png]]  
+    ![[10_base_datos/01_bbdd_sistemas_almacenamiento/assets/2025-09-16_10-59-34.png]]  
 - **Área de excedentes ou de overflow:** onde se gravan os rexistros que non teñen sitio na área de datos. Os novos rexistros insérense e quedan enlazados entre si mediante punteiros conservando a orde lóxica que marca a clave ou índice principal.
 
 **Do tratamento dos índices e punteiros encárgase o sistema operativo** polo que non vai crear problemas ao usuario cando manexa este tipo de ficheiros. O usuario sabe o que sucede cando solicita unha consulta dun rexistro, pero non sabe como se realiza internamente esa consulta.
@@ -199,6 +219,7 @@ Hai dúas variantes neste modelo tamén. **Secuencial-indexado con índice dens
 A organización secuencial indexada permite o acceso directo aos rexistros, sen os inconvenientes da existencia de ocos como na organización directa, e o tratamento secuencial dos rexistros, propio da organización secuencial. Esta organización é **moi utilizada, tanto para procesos nos que interveñen poucos rexistros como para aqueles nos que se manexa o ficheiro completo**.
 
 ***As principais vantaxes:***
+
 - **Permite o acceso secuencial**. Isto é moi interesante cando a taxa de actividade é alta. No acceso secuencial, ademais, os rexistros lense ordenados polo campo clave.
 - **Permite o acceso directo aos rexistros.** Realmente emula o acceso directo, empregando para iso as táboas de índices. Primeiro busca a clave na área de índices e logo vai ler á área de datos na dirección que lle indica a táboa.
 - **Pódense actualizar os rexistros no mesmo ficheiro,** sen necesidade de crear un ficheiro novo de copia no proceso de actualización. Permite tanto o **proceso por lotes** (procesos en diferido que hai que preparar previamente) como o **proceso en tempo real**  (as actualizacións da información levan a cabo no momento en que se producen).
@@ -210,11 +231,13 @@ A organización secuencial indexada permite o acceso directo aos rexistros, sen 
 - Obriga a un **investimento económico maior**, pola necesidade de programas e, ás veces, hardware mais sofisticado.
 
 ## Directa
+
 A organización directa está baseada na **independencia entre a orde en que se dan de alta os rexistros e a posición na que se gravan no soporte**. _**A posición na que se gravan os rexistros está en función da información que teña o campo clave do rexistro**_.
 Nesta organización **o espazo total dispoñible para o ficheiro divídese en celas destinadas cada unha delas a conter un rexistro e só un**. As celas están numeradas correlativamente e pódese acceder ao contido dun rexistro, de forma directa, se coñecemos a dirección relativa da cela na que está gravado.
 
 Esta organización **só é posible en soportes direccionables**, pois o acceso aos rexistros faise sen necesidade de ler os anteriores. **É a organización que ten un menor tempo de acceso a un rexistro**, en acceso directo. Úsanse cando o acceso aos datos dun rexistro faise sempre empregando a mesma clave e a velocidade de acceso a un rexistro é o que máis nos importa.
 ![[10_base_datos/01_bbdd_sistemas_almacenamiento/assets/2025-09-16_11-10-24.png]]  
+
 ### Técnicas de direccionamento.
 
 Como queda devandito para poder localizar un rexistro é necesario coñecer o valor da clave. _**Ás técnicas utilizadas para converter o valor da clave dun rexistro C, na dirección relativa da cela do ficheiro en que vai estar gravado D chámaselle técnicas de direccionamiento.**_
@@ -243,7 +266,9 @@ O caso óptimo de aplicación desta organización dáse **cando as claves no fi
 
 **Os valores da clave almacénanse nunha táboa en memoria na que cada elemento asocia cada valor da clave coa dirección relativa na que está almacenado o rexistro**. Posto que a táboa debe prever a inclusión de todas as direccións posibles do arquivo, o seu principal inconveniente resulta determinar o seu tamaño e mantela ordenada polos valores da clave.
 ![[10_base_datos/01_bbdd_sistemas_almacenamiento/assets/2025-09-16_11-11-09.png]]
+
 #### Direccionamiento aleatorio (Hashing).
+
 Neste caso **hai que buscar unha función, se é posible biunívoca, que relacione os posibles valores da clave co conxunto de números correlativos de cela**. Esta función consistirá en realizar unha serie de cálculos matemáticos co valor da clave ata obter un número entre 1 e nº, sendo nº o número de celas que ten o ficheiro.
 ![[10_base_datos/01_bbdd_sistemas_almacenamiento/assets/2025-09-16_11-12-39.png]]
 
@@ -258,11 +283,16 @@ O principal inconveniente que presenta este tipo de direccionamiento é o que *
 ### Inconvenientes.
 
 - **A relación entre clave e dirección (Nº de rexistro) defínea o programador** e só el é responsable de manexala correctamente. O acceso a un rexistro faise indicándolle ao sistema a súa dirección relativa dentro do ficheiro (nº de rexistro) e a comprobación de si o rexistro lido é ou non o que buscamos tena que facer o programador, **o sistema operativo non nos avisa de posibles erros que se produzan o cálculo da dirección**.
+
 - **Cando o rango de claves posibles é moi superior ao de claves que realmente están gravadas no ficheiro, haberá moito espazo desaproveitado** debido a que temos que reservar espazo a todos e cada un dos rexistros teoricamente posibles. Poden existir celas baleiras.
+
 - **O algoritmo de direccionamiento debe garantimos que non se nos producirán dúas direccións iguais para dous valores de clave distintos.** No caso de non elixir un bo método de direccionamiento poida que a aparición de sinónimos faga complicado o acceso a algúns rexistros debido a que teriamos que empregar un método de tratamento de sinónimos que debe controlar o programador.
+
 - **Non permite o acceso secuencial aos rexistros** por outra orde que non sexa a orde en que están gravados no soporte.
+
 - **Só se pode utilizar un campo clave** para acceder aos rexistros.  
-# Operacións
+  
+  # Operacións
 
 A utilidade principal dos ficheiros é poder almacenar información e recuperala máis tarde.
 
@@ -281,13 +311,18 @@ Para poder levar a cabo estas operacións os S.Ou. proporcionan un **conxunto d
 Ademais destas operacións nas que ven afectados todos os rexistros do ficheiro pódense realizar outras **operacións nas que só se utilicen unha parte dos rexistros**. Nestas operacións será necesario, primeiro localizar o rexistros ou os rexistros cos que queremos traballar e logo, realizar as operacións. As operacións máis utilizadas deste tipo son:
 
 - **Actualización ou mantemento**: consiste en manter actualizados os datos almacenados nos rexistros do ficheiro. As operacións de actualización son:
-    - **Altas**: engadir novos rexistros
-    - **Baixas**: eliminar rexistros
-    - **Modificacións**: cambiar o contido dun ou máis campos dun rexistro do ficheiro
+  
+  - **Altas**: engadir novos rexistros
+  - **Baixas**: eliminar rexistros
+  - **Modificacións**: cambiar o contido dun ou máis campos dun rexistro do ficheiro
+
 - **Recuperación**: consiste en acceder á información almacenada nos rexistros do ficheiro para poder ser consultada:
-    - **Consultas**: acceder a un ou varios rexistros para ver o contido de todos os seus campos ou só parte deles
-    - **Listados**: a información accedida móstrase ben en papel, por pantalla...
-# Conclusión
+  
+  - **Consultas**: acceder a un ou varios rexistros para ver o contido de todos os seus campos ou só parte deles
+  
+  - **Listados**: a información accedida móstrase ben en papel, por pantalla...
+    
+    # Conclusión
 
 Como os sistemas son dinámicos, os requirimentos cambian co tempo, a información para ser tratada en cada problema tamén cambia e, por tanto, é necesario, dalgunha maneira, **independizar a estrutura da información** (os arquivos encargados de almacenal) **dos procedementos encargados do seu tratamento**, se non se estaría sempre abocado á dedicación dunha gran cantidade de esforzo á modificación de todos aqueles procedementos encargados do mantemento da información.
 
