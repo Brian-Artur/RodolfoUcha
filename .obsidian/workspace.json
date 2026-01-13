@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "70_sistemas_iformaticos/Repaso_Examen_eva1.md",
+                "file": "30_ingles/26-01-13.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Repaso_Examen_eva1"
+              "title": "26-01-13"
             }
           }
         ]
@@ -131,6 +131,15 @@
   },
   "active": "1536dec0ebd2923e",
   "lastOpenFiles": [
+    "30_ingles/Computing  Information Technology -- Oliver Taylor -- WORKBOOK -- Burlington Books OCR.pdf",
+    "30_ingles/26-01-13.md",
+    "30_ingles/Computing  Information Technology -- Oliver Taylor -- STUDENT'S BOOK -- Burlington Books OCR.pdf",
+    "README.md",
+    "60_programacion/UD2/02 - Elementos de un programa informático.pdf",
+    "60_programacion/UD2/01 - Introducción al lenguaje Java.pdf",
+    "60_programacion/MOC.md",
+    "60_programacion/main().md",
+    "70_sistemas_iformaticos/Repaso_Examen_eva1.md",
     "70_sistemas_iformaticos/Crear_archivos_brian_artur_faro.pdf",
     "10_base_datos/UD01/01-02_bbdd_sistemas_Información.pdf",
     "10_base_datos/UD01/01_sistemas_almacenamiento.md",
@@ -141,16 +150,10 @@
     "src/menu/Menu.ts",
     "src/menu/Menu",
     "src/menu",
-    "src/utils/utilData.ts",
-    "src/utils",
     "docs/03_estructura.md",
     "docs/06_transpilar.md",
     "docs/ChatGPT-Plan de estudio efectivo.md",
-    "docs/componentes",
-    "README.md",
     "docs/02_imprescindibles.md",
-    "src/numeration/changeNumeration.ts",
-    "src/numeration",
     "docs/01_contexto.md",
     "node_modules/make-error/README.md",
     "docs/assets/transpilacion.svg",
@@ -166,10 +169,6 @@
     "70_sistemas_iformaticos/71_UD1/Drawing 2025-10-07 21.12.20.excalidraw.md",
     "40_ipe/Drawing 2025-12-02 16.25.38.excalidraw.md",
     "70_sistemas_iformaticos/71_UD1/Drawing 2025-10-14 20.44.27.excalidraw.md",
-    "30_ingles/ud2.md",
-    "30_ingles/Dialogos.md",
-    "10_base_datos/14_diseño_bbdd/25-12-15.md",
-    "30_ingles/UD1/ud2.md",
     "50_lenguaje_marcas/UD1/Captura de pantalla 2025-09-15 195440.png",
     "40_ipe/43_UD5_UD6/assets/2025-12-16_16-36-07.png",
     "40_ipe/43_UD5_UD6/assets/2025-12-16_16-35-07.png",
