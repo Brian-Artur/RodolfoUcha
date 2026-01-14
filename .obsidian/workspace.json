@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "70_sistemas_iformaticos/26-01-13.md",
+                "file": "40_ipe/43_UD5_UD6/26-01-14.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "26-01-13"
+              "title": "26-01-14"
             }
           }
         ]
@@ -131,20 +131,21 @@
   },
   "active": "11a0ef5cf041b36f",
   "lastOpenFiles": [
+    "70_sistemas_iformaticos/26-01-13.md",
+    "40_ipe/43_UD5_UD6/26-01-14.md",
+    "00_assets/Pasted image 20260114185711.png",
+    "00_assets/Pasted image 20260114184443.png",
+    "00_assets/Pasted image 20260114183704.png",
+    "00_assets/Pasted image 20260114183459.png",
+    "40_ipe/43_UD5_UD6/26-01-13.md",
     "00_assets/Pasted image 20260113220834.png",
     "00_assets/Pasted image 20260113220044.png",
     "00_assets/Pasted image 20260113220029.png",
     "00_assets/Pasted image 20260113215418.png",
     "00_assets/Pasted image 20260113214549.png",
     "00_assets/Pasted image 20260113214452.png",
-    "00_assets/Pasted image 20260113213724.png",
-    "00_assets/Pasted image 20260113213629.png",
-    "00_assets/Pasted image 20260113213450.png",
-    "00_assets/Pasted image 20260113213147.png",
-    "00_assets/Pasted image 20260113212337.png",
     "30_ingles/26-01-13.md",
     "70_sistemas_iformaticos/Crear_archivos_brian_artur_faro.pdf",
-    "70_sistemas_iformaticos/26-01-13.md",
     "70_sistemas_iformaticos/01_gestion_info.md",
     "70_sistemas_iformaticos/72/25-12-16.md",
     "30_ingles/Computing  Information Technology -- Oliver Taylor -- WORKBOOK -- Burlington Books OCR.pdf",
@@ -152,7 +153,6 @@
     "30_ingles/brianaf_writting_25-12-02.pdf",
     "30_ingles/Computing  Information Technology -- Oliver Taylor -- STUDENT'S BOOK -- Burlington Books OCR.pdf",
     "40_ipe/IPE_06.pdf",
-    "40_ipe/43_UD5_UD6/26-01-13.md",
     "40_ipe/43_UD5_UD6/25-12-16.md",
     "40_ipe/IPE_05.pdf",
     "README.md",
@@ -175,7 +175,6 @@
     "node_modules/make-error/README.md",
     "Apuntes/02_proceso.md",
     "ChatGPT-Plan de estudio efectivo.md",
-    "Apuntes/01_equivalencias.md",
-    "50_lenguaje_marcas/25-09-15.md"
+    "Apuntes/01_equivalencias.md"
   ]
 }

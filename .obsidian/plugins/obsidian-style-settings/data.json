@@ -384,7 +384,7 @@
   "blue-topaz-theme@@bt-connected-indent-line-color@@light": "#2D2D2D",
   "blue-topaz-theme@@indentation-guide-color-active@@light": "#C3C7F194",
   "blue-topaz-theme@@bt-colorful-indentation-lines": false,
-  "blue-topaz-theme@@obsidian-default-image": false,
+  "blue-topaz-theme@@obsidian-default-image": true,
   "blue-topaz-theme@@outline-style": "default-outline-style",
   "blue-topaz-theme@@nowrap-outline": false,
   "blue-topaz-theme@@left-ribbon-style": "default-left-ribbon-style",
@@ -407,11 +407,13 @@
   "blue-topaz-theme@@folder-note-dot": false,
   "blue-topaz-theme@@bt-toggle-colorful-folder": false,
   "blue-topaz-theme@@folder-style-change-options-colorful": "folder-style-change-options-colorful-default",
-  "blue-topaz-theme@@img-grid": true,
+  "blue-topaz-theme@@img-grid": false,
   "Blue-Topaz-Codebox-Highlight@@muted-code-activeline-bg": false,
   "Blue-Topaz-Codebox-Highlight@@whole-code-wrap": true,
   "blue-topaz-theme@@h2-underline-color@@light": "#727272",
   "blue-topaz-theme@@list-ol-number-color@@light": "#324264",
   "blue-topaz-theme@@bt-list-indentation-margin-left-editing": "3px",
-  "blue-topaz-theme@@bt-colorful-indentation-lines-editing": true
+  "blue-topaz-theme@@bt-colorful-indentation-lines-editing": true,
+  "blue-topaz-theme@@background-settings-workplace-background-image": false,
+  "blue-topaz-theme@@background-image-settings-command-palette-switch": false
 }
