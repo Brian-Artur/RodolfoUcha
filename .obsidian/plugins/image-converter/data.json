@@ -17,7 +17,7 @@
       "type": "SUBFOLDER"
     }
   ],
-  "selectedFolderPreset": "SubFolder",
+  "selectedFolderPreset": "Default (Obsidian setting)",
   "filenamePresets": [
     {
       "name": "Keep original name",
@@ -141,7 +141,7 @@
         "hideFolders": false
       }
     ],
-    "selectedLinkFormatPreset": "Default (Wikilink, Shortest)"
+    "selectedLinkFormatPreset": "Markdown, Relative"
   },
   "nonDestructiveResizeSettings": {
     "resizePresets": [
@@ -326,7 +326,7 @@
   },
   "isImageAlignmentEnabled": true,
   "imageAlignment_cacheCleanupInterval": 3600000,
-  "imageAlignment_cacheLocation": "plugin",
+  "imageAlignment_cacheLocation": ".obsidian",
   "isDragResizeEnabled": true,
   "isScrollResizeEnabled": true,
   "isDragAspectRatioLocked": false,
